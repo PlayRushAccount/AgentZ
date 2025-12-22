@@ -132,6 +132,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         agent.isStopped = false;
+        agent.speed = 4f;
         agent.SetDestination(player.position);
 
         RotateTowards(player.position - transform.position);
