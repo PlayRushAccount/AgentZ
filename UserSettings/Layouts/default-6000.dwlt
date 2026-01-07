@@ -204,7 +204,7 @@ MonoBehaviour:
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 3D Layout
+  m_LastLoadedLayoutName: 
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,7 +408,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 346d0100
     m_LastClickedID: 93492
-    m_ExpandedIDs: 000000009cd400009ed40000a0d40000a2d40000a4d40000d6d5000000ca9a3b
+    m_ExpandedIDs: 0000000052d5000054d5000056d5000058d500005ad50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,7 +437,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009cd400009ed40000a0d40000a2d40000a4d4000000ca9a3b
+    m_ExpandedIDs: 0000000052d5000054d5000056d5000058d500005ad50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,8 +516,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1622
-    y: 79
+    x: 1623
+    y: 24
     width: 297
     height: 915
   m_SerializedDataModeController:
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 385
     height: 637
   m_SerializedDataModeController:
@@ -583,8 +583,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f43bffff
-      m_LastClickedID: -50188
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: f43bffff32b9ffff24edffff44edffff46edffffe4eeffffe8eeffffeceefffff0eeffff68efffff6cefffff70efffff74efffff78efffff1cfbffff84d00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -631,8 +631,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 770
-    y: 79
+    x: 771
+    y: 24
     width: 850
     height: 637
   m_SerializedDataModeController:
@@ -1345,7 +1345,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.051070146, y: 0.68367463, z: 0.04806763, w: -0.7264141}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 17}
@@ -1382,8 +1382,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 386
-    y: 79
+    x: 387
+    y: 24
     width: 382
     height: 637
   m_SerializedDataModeController:
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 742
+    y: 687
     width: 1621
     height: 252
   m_SerializedDataModeController:
