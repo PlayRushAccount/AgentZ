@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\AgentZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D2C62E-8CC8-6D3B-C53E-6F0149F1A43F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\documents\\github\\agentz\\assets\\scripts\\mainmenuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D2C62E-8CC8-6D3B-C53E-6F0149F1A43F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\GitHub\\AgentZ\\Assets\\Scripts\\MainMenuHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuHandler.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\GitHub\\AgentZ\\Assets\\Scripts\\MainMenuHandler.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T20:54:53.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

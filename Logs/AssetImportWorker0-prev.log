@@ -1,13 +1,13 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16263 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-30T21:45:33Z
-[Licensing::Module] Trying to connect to existing licensing client channel...
+Date: 2026-01-15T08:53:56Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO" at "2026-01-15T08:53:56.5308663Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Users\LENOVO\Documents\Unity assets\Unity Downloads\6000.0.62f1\Editor\Unity.exe
 -adb2
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO" at "2025-12-30T21:45:33.1068362Z"
 -batchMode
 -noUpm
 -name
@@ -17,7 +17,7 @@ C:/Users/LENOVO/Documents/GitHub/AgentZ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55069
+50041
 -licensingIpc
 LicenseClient-LENOVO
 -job-worker-count
@@ -65,36 +65,36 @@ C:/Users/LENOVO/Documents/GitHub/AgentZ
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9860]  Target information:
+Player connection [6024]  Target information:
 
-Player connection [9860]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1198117982 [EditorId] 1198117982 [Version] 1048832 [Id] WindowsEditor(7,PelzOMG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6024]  * "[IP] 172.20.10.6 [Port] 0 [Flags] 2 [Guid] 877226607 [EditorId] 877226607 [Version] 1048832 [Id] WindowsEditor(7,PelzOMG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9860] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9860] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6024] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6024] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18288, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19808, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-LENOVO"
 [Licensing::IpcConnector] LicenseClient-LENOVO channel disconnected successfully.
-Library Redirect Path: Library/
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.0.62" at "2025-12-30T21:45:34.0229122Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8440, path: "C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.0.62" at "2026-01-15T08:53:56.8543472Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5064, path: "C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              15df5b4c42d447f293ab2f9f3a7ee927
-  Correlation Id:          8127fa625ad6eb38fc7beae4c50a8e9f
-  External correlation Id: 8947579245340855187
+  Session Id:              efe790b2367349db886eece03b383f14
+  Correlation Id:          3b1b24b5ab82fed1e71ef0bc3e2ea702
+  External correlation Id: 4698097859322833935
   Machine Id:              BnZfOSTVCAa9u8iGU6EncXq4MXU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-LENOVO-6000.0.62" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.0.62-notifications" at "2025-12-30T21:45:34.0438554Z"
-[Licensing::Module] Licensing Background thread has ended after 0.94s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-LENOVO-6000.0.62" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.0.62-notifications" at "2026-01-15T08:53:56.903217Z"
+[Licensing::Module] Licensing Background thread has ended after 0.37s
+Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -107,7 +107,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 542.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -124,48 +124,48 @@ Initialize mono
 Mono path[0] = 'C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Users/LENOVO/Documents/Unity assets/Unity Downloads/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.016528 seconds.
-- Loaded All Assemblies, in  3.625 seconds
+Registered in 0.016927 seconds.
+- Loaded All Assemblies, in  2.248 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 575 ms
+Android Extension - Scanning For ADB Devices 14688 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.606 seconds
-Domain Reload Profiling: 12227ms
-	BeginReloadAssembly (375ms)
+- Finished resetting the current domain, in 16.779 seconds
+Domain Reload Profiling: 19019ms
+	BeginReloadAssembly (516ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (1982ms)
-	LoadAllAssembliesAndSetupDomain (1115ms)
-		LoadAssemblies (371ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (190ms)
+	RebuildNativeTypeToScriptingClass (168ms)
+	initialDomainReloadingComplete (226ms)
+	LoadAllAssembliesAndSetupDomain (1136ms)
+		LoadAssemblies (506ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1101ms)
-			TypeCache.Refresh (1098ms)
-				TypeCache.ScanAssembly (1019ms)
+		AnalyzeDomain (1126ms)
+			TypeCache.Refresh (1120ms)
+				TypeCache.ScanAssembly (1064ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (8613ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (16783ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (7789ms)
+		SetupLoadedEditorAssemblies (16390ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6163ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (788ms)
-			ProcessInitializeOnLoadMethodAttributes (698ms)
+			InitializePlatformSupportModulesInManaged (15010ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (588ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (218ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -174,280 +174,4 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  7.853 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 12.04 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.834 seconds
-Domain Reload Profiling: 14655ms
-	BeginReloadAssembly (448ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (471ms)
-	RebuildNativeTypeToScriptingClass (61ms)
-	initialDomainReloadingComplete (181ms)
-	LoadAllAssembliesAndSetupDomain (6660ms)
-		LoadAssemblies (4308ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2631ms)
-			TypeCache.Refresh (2000ms)
-				TypeCache.ScanAssembly (1844ms)
-			BuildScriptInfoCaches (557ms)
-			ResolveRequiredComponents (53ms)
-	FinalizeReload (6835ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5508ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (126ms)
-			SetLoadedEditorAssemblies (37ms)
-			BeforeProcessingInitializeOnLoad (1766ms)
-			ProcessInitializeOnLoadAttributes (3447ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 165 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8241 unused Assets / (20.7 MB). Loaded Objects now: 8901.
-Memory consumption went from 185.2 MB to 164.5 MB.
-Total: 89.176600 ms (FindLiveObjects: 2.203700 ms CreateObjectMapping: 2.208500 ms MarkObjects: 27.889200 ms  DeleteObjects: 56.873700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 896976.957327 seconds.
-  path: Assets/FuzZombie_diffuse.png
-  artifactKey: Guid(2c1ac97dcfd1369439cbcfbdd4b502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_diffuse.png using Guid(2c1ac97dcfd1369439cbcfbdd4b502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e73639483f86f04d4b25452538acb78') in 1.5143312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/FuzZombie_specular.png
-  artifactKey: Guid(02188e49bc63443458521fcba4a78cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_specular.png using Guid(02188e49bc63443458521fcba4a78cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8518603bab31bd413df6976fdd7b96c9') in 0.4411033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/copzombie_l_actisdato@Zombie Idle.fbx
-  artifactKey: Guid(8782324d90a01d14c82d3f34e0c8df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/copzombie_l_actisdato@Zombie Idle.fbx using Guid(8782324d90a01d14c82d3f34e0c8df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0925895d2423e86fddb9f83d80129003') in 38.2455227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 488
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/FuzZombie_body_diffuse.png
-  artifactKey: Guid(a239005acdfa74c43b63a746a47a1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_body_diffuse.png using Guid(a239005acdfa74c43b63a746a47a1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e7738c1400cae56d8118d2448e1db8e') in 0.4794978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0db1e7f9507f96cb06b5502e0beace7f') in 0.0314955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/FuzZombie_normal.png
-  artifactKey: Guid(964f27d55ff951042b1166517195f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_normal.png using Guid(964f27d55ff951042b1166517195f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2ee1a7afdd587229b73b8f97993675') in 0.5898209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.573012 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(6ef001fde459e374a8c46b5064fb1a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(6ef001fde459e374a8c46b5064fb1a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de62d7e7c1696839522ec7bce9f9197a') in 0.0173698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Plane.asset
-  artifactKey: Guid(5fde28681e2eeb845986e351ef065307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Plane.asset using Guid(5fde28681e2eeb845986e351ef065307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6fca4cae555acd07e7408a35c4e631') in 0.0171187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.937309 seconds.
-  path: Assets/Scenes/CityStreet Scene
-  artifactKey: Guid(f39aacff9ab56db4aaa57ba1520ee15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CityStreet Scene using Guid(f39aacff9ab56db4aaa57ba1520ee15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b0b759d3773770856f54a7338c8abc6') in 0.0037388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Scenes/CityStreet Scene/NavMesh-Plane.asset
-  artifactKey: Guid(abe6b12565fd64740b0a8247642e66fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CityStreet Scene/NavMesh-Plane.asset using Guid(abe6b12565fd64740b0a8247642e66fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61208807b21bfa96516d742116ffc894') in 0.0101586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.616450 seconds.
-  path: Assets/Scenes/CityStreet Scene.unity
-  artifactKey: Guid(e9bd8c2e7cf91a548ba8b58b30fb388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CityStreet Scene.unity using Guid(e9bd8c2e7cf91a548ba8b58b30fb388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '073cd177a73a9ae7ffc5adaefdca87d9') in 0.0015596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.251306 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628fc14aa320b8d67dd41788f6c67466') in 0.0016887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  4.671 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.719 seconds
-Domain Reload Profiling: 9347ms
-	BeginReloadAssembly (793ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (125ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (216ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (4673ms)
-		LoadAssemblies (2411ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1519ms)
-			TypeCache.Refresh (30ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (1321ms)
-			ResolveRequiredComponents (135ms)
-	FinalizeReload (3720ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2949ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (19ms)
-			BeforeProcessingInitializeOnLoad (578ms)
-			ProcessInitializeOnLoadAttributes (1997ms)
-			ProcessInitializeOnLoadMethodAttributes (300ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (50ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8241 unused Assets / (23.5 MB). Loaded Objects now: 8991.
-Memory consumption went from 215.8 MB to 192.3 MB.
-Total: 38.382200 ms (FindLiveObjects: 2.476600 ms CreateObjectMapping: 2.973800 ms MarkObjects: 14.176200 ms  DeleteObjects: 18.754300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 754.695877 seconds.
-  path: Assets/copzombie_l_actisdato@Zombie Idle.fbx
-  artifactKey: Guid(8782324d90a01d14c82d3f34e0c8df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/copzombie_l_actisdato@Zombie Idle.fbx using Guid(8782324d90a01d14c82d3f34e0c8df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48b7ea79b8d65bb0f612513e034a915') in 7.630858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 488
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/FuzZombie_diffuse.png
-  artifactKey: Guid(2c1ac97dcfd1369439cbcfbdd4b502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_diffuse.png using Guid(2c1ac97dcfd1369439cbcfbdd4b502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f79c778884c6aec2922bc11d49f75ee1') in 0.4366886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/FuzZombie_specular.png
-  artifactKey: Guid(02188e49bc63443458521fcba4a78cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_specular.png using Guid(02188e49bc63443458521fcba4a78cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c17b2a65e65a66b83fdd65e62bb67a27') in 0.3915789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FuzZombie_body_diffuse.png
-  artifactKey: Guid(a239005acdfa74c43b63a746a47a1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_body_diffuse.png using Guid(a239005acdfa74c43b63a746a47a1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc4e67e2b41ec846025b47379d2666c') in 0.4180911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c93c69267c1c662b2833975c3643dcf') in 0.0163128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6d29b12735c472f76cc4e73ef0b6885') in 0.0209792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/FuzZombie_normal.png
-  artifactKey: Guid(964f27d55ff951042b1166517195f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FuzZombie_normal.png using Guid(964f27d55ff951042b1166517195f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7398ec9c60cfa9bb5f3fd725098fbcc2') in 0.411871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+- Loaded All Assemblies, in  3.642 seconds
