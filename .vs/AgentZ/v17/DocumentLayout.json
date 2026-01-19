@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|c:\\users\\user\\documents\\github\\agentz\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD3AA1E-0956-1F79-34BA-DF4404179F31}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D2C62E-8CC8-6D3B-C53E-6F0149F1A43F}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\assets\\myscripts\\enemyscripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D2C62E-8CC8-6D3B-C53E-6F0149F1A43F}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\enemyscripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\MyScripts\\EnemyScripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\EnemyScripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\MyScripts\\EnemyScripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\EnemyScripts\\EnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:18:09.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwG8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T19:43:09.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T19:13:18.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThirdPersonMovement.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonMovement.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\AgentZ\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonMovement.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonMovement.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAqwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T19:09:26.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
