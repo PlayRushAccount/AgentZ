@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7544 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-17T17:21:56.5674649Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-19T13:54:31.9538889Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-17T17:21:56Z
+Date: 2026-01-19T13:54:31Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/USER/Documents/GitHub/AgentZ
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58284
+61845
 -licensingIpc
 LicenseClient-USER
 -job-worker-count
@@ -65,16 +65,27 @@ C:/Users/USER/Documents/GitHub/AgentZ
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7292]  Target information:
+Player connection [14860]  Target information:
 
-Player connection [7292]  * "[IP] 10.219.196.44 [Port] 0 [Flags] 2 [Guid] 1199971652 [EditorId] 1199971652 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K5OLOL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14860]  * "[IP] 10.219.196.44 [Port] 0 [Flags] 2 [Guid] 1887870364 [EditorId] 1887870364 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K5OLOL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7292] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7292] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14860] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14860] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19872, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              b0b3aa793be04b5582abe6ce320d330b
+  Correlation Id:          c6fc166299d598615221701a533b8a9b
+  External correlation Id: 5015974028526239002
+  Machine Id:              OAbm5RE/DZ5+YLhXwVvKRl6scdM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-19T13:54:32.0188858Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -82,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -98,56 +109,68 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9448, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              caf1c634f77e43b8a4d093af74e2fe88
-  Correlation Id:          a42846d93b553ae531124a6b772d2985
-  External correlation Id: 8477674324247011596
-  Machine Id:              OAbm5RE/DZ5+YLhXwVvKRl6scdM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.01s, handshake: 0.83s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-17T17:21:57.4024578Z"
-[Licensing::Module] Licensing Background thread has ended after 0.84s
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026675 seconds.
-- Loaded All Assemblies, in  1.122 seconds
+Registered in 0.008203 seconds.
+- Loaded All Assemblies, in  0.933 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
+UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
+
+trackSelection = true
+
+  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
+  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Search.SearchSettingsStorage:Load ()
+UnityEditor.Search.SearchSettings:Load ()
+UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
+UnityEditor.Search.SearchSettings:.cctor ()
+UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
+UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
+UnityEditor.Search.CustomIndexers:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.959 seconds
-Domain Reload Profiling: 2077ms
-	BeginReloadAssembly (396ms)
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1592ms
+	BeginReloadAssembly (360ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (117ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (178ms)
-	LoadAllAssembliesAndSetupDomain (396ms)
-		LoadAssemblies (391ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (387ms)
-			TypeCache.Refresh (383ms)
-				TypeCache.ScanAssembly (351ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (341ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (961ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (805ms)
+		SetupLoadedEditorAssemblies (568ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,1700 +186,85 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 31.079 seconds
+- Loaded All Assemblies, in  2.217 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
+UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
+
+trackSelection = true
+
+  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
+  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Search.SearchSettingsStorage:Load ()
+UnityEditor.Search.SearchSettings:Load ()
+UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
+UnityEditor.Search.SearchSettings:.cctor ()
+UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
+UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
+UnityEditor.Search.CustomIndexers:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.595 seconds
-Domain Reload Profiling: 34654ms
-	BeginReloadAssembly (4198ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (497ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (582ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (26614ms)
-		LoadAssemblies (28280ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1169ms)
-			TypeCache.Refresh (788ms)
-				TypeCache.ScanAssembly (717ms)
-			BuildScriptInfoCaches (324ms)
-			ResolveRequiredComponents (46ms)
-	FinalizeReload (3600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2827ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (332ms)
-			ProcessInitializeOnLoadAttributes (2027ms)
-			ProcessInitializeOnLoadMethodAttributes (429ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (5ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 312 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8441 unused Assets / (42.5 MB). Loaded Objects now: 8813.
-Memory consumption went from 228.4 MB to 185.9 MB.
-Total: 149.978500 ms (FindLiveObjects: 2.598700 ms CreateObjectMapping: 2.250700 ms MarkObjects: 109.896400 ms  DeleteObjects: 35.228300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 207318.992916 seconds.
-  path: Assets/Anime Tokyo/Materials/M_billboard_videogame.mat
-  artifactKey: Guid(40a6657daa96e834c891fa24989591da) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_billboard_videogame.mat using Guid(40a6657daa96e834c891fa24989591da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3877f56532f0257b53ce80e731ebe7cc') in 1.444795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Anime Tokyo/Materials/M_billboard_arcadecenter.mat
-  artifactKey: Guid(c40cea8ee0a6f3647bc8970384597253) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_billboard_arcadecenter.mat using Guid(c40cea8ee0a6f3647bc8970384597253) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63966d31c60b8026d572ae6a4ab457ab') in 0.0654403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47da6ff66d15e6658b4667bfafd50be0') in 0.8032278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Anime Tokyo/Materials/M_plastic_wall_01 7.mat
-  artifactKey: Guid(07d7fb69ad60f184c9a370e80ef57216) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_plastic_wall_01 7.mat using Guid(07d7fb69ad60f184c9a370e80ef57216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af1c2e9841fa02d5dfc632356bc07425') in 0.0905725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Anime Tokyo/Materials/M_pavingstone_red_01_wet 1.mat
-  artifactKey: Guid(75d2b6774767d4444a122af29534947a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_pavingstone_red_01_wet 1.mat using Guid(75d2b6774767d4444a122af29534947a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f6624c647b347d0f642e5c6913223fa') in 0.0713293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Anime Tokyo/Materials/M_plastic_wall_01 1.mat
-  artifactKey: Guid(d1ea72113ed690f4e85bf8977b6556a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_plastic_wall_01 1.mat using Guid(d1ea72113ed690f4e85bf8977b6556a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16a7d6dd761a3c862769c3cd32435e47') in 0.0476917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Anime Tokyo/Materials/M_plaster 2.mat
-  artifactKey: Guid(162cb7d674a6ea543a5f79293250b98c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_plaster 2.mat using Guid(162cb7d674a6ea543a5f79293250b98c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e5bc960c55a7dee2bdcd4fe3e4decf6') in 0.0729412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Anime Tokyo/Materials/M_light_orange.mat
-  artifactKey: Guid(aa17c2151a6851d4ca7c40c367800afb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_light_orange.mat using Guid(aa17c2151a6851d4ca7c40c367800afb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '097092a656b25f236d7a320c0aa4c92d') in 0.0347494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Anime Tokyo/Materials/M_bricks_wall_01.mat
-  artifactKey: Guid(02ca4f5d143d91c4194acdf983406ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_bricks_wall_01.mat using Guid(02ca4f5d143d91c4194acdf983406ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6adce9ba6286057727a774db4b4582a') in 0.0493362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Anime Tokyo/Materials/M_bottles.mat
-  artifactKey: Guid(a279f7ceaedec2a49ba91d9e70dda645) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_bottles.mat using Guid(a279f7ceaedec2a49ba91d9e70dda645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7eb848ce8642c10b2402a80339d1d980') in 0.0461874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Anime Tokyo/Materials/M_leaf.mat
-  artifactKey: Guid(7557fc8e602af0d47b6db83c118671ae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_leaf.mat using Guid(7557fc8e602af0d47b6db83c118671ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abfa88c915d474e354270716bf3daa73') in 0.0821873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Anime Tokyo/Materials/M_asphalt_02_wet.mat
-  artifactKey: Guid(ab314027a4ece524c9572c6b6d1cebcc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_asphalt_02_wet.mat using Guid(ab314027a4ece524c9572c6b6d1cebcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09effe8f9504ee62eb9cd615927f787f') in 0.0928484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Anime Tokyo/Materials/M_lanterns_extra.mat
-  artifactKey: Guid(5305d7ae4f72ee04ba78841479d90b38) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_lanterns_extra.mat using Guid(5305d7ae4f72ee04ba78841479d90b38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a17b7d45d8e4ddfe454af6d88dadce64') in 0.0593007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Scenes/CityStreet Scene.unity
-  artifactKey: Guid(e9bd8c2e7cf91a548ba8b58b30fb388d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/CityStreet Scene.unity using Guid(e9bd8c2e7cf91a548ba8b58b30fb388d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c4c2d7888912cc7e300850291c67d41') in 0.2658595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Anime Tokyo/Materials/M_props_street.mat
-  artifactKey: Guid(38ce7498e5a4fb34da8fc611b3e3f441) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_props_street.mat using Guid(38ce7498e5a4fb34da8fc611b3e3f441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ca21ea3585ef3d7c885d50cdcdbc1af') in 0.0414082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Anime Tokyo/Materials/M_storefronts_japan_01 2.mat
-  artifactKey: Guid(72c908a151e3bd84ba15730154b4fc3e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_storefronts_japan_01 2.mat using Guid(72c908a151e3bd84ba15730154b4fc3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce39e69865857744878fc191a6404f89') in 0.0567713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Anime Tokyo/Materials/M_sign_satsupirisu.mat
-  artifactKey: Guid(f08ec6a37aa692244a8e0bb9626250bf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_sign_satsupirisu.mat using Guid(f08ec6a37aa692244a8e0bb9626250bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '275ba6474054e69fe18c1d992b2b905a') in 0.0777364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Anime Tokyo/Materials/M_rooftiles 3.mat
-  artifactKey: Guid(f06cdd4488d80954abac3acf0969b2a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_rooftiles 3.mat using Guid(f06cdd4488d80954abac3acf0969b2a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14a0ec27e55e546151adcea6b2649097') in 0.0367651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Anime Tokyo/Materials/M_neonsigns.mat
-  artifactKey: Guid(5361f93064e63094cac9f5238d96c2ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_neonsigns.mat using Guid(5361f93064e63094cac9f5238d96c2ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6495e8f40ffb572facaafe325b1ae4d3') in 0.1015949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Anime Tokyo/Materials/M_light_red.mat
-  artifactKey: Guid(9a72ffff45cbffa4a90990efcd18d845) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_light_red.mat using Guid(9a72ffff45cbffa4a90990efcd18d845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce5ec658031ce41ba0939b8f346bd26e') in 0.0457503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Anime Tokyo/Materials/M_red.mat
-  artifactKey: Guid(04eb3f6038633f641954610e0ec84829) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_red.mat using Guid(04eb3f6038633f641954610e0ec84829) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31eff189254a4e2d4c7d887c36563a6b') in 0.0741582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Anime Tokyo/Materials/M_storefronts_japan_01 1.mat
-  artifactKey: Guid(043d4b7c0e8db09418d22aaff2a0bdbe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_storefronts_japan_01 1.mat using Guid(043d4b7c0e8db09418d22aaff2a0bdbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5392b92f4d23dcc59900ed7506a5caf1') in 0.0493199 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Anime Tokyo/Materials/M_light_03.mat
-  artifactKey: Guid(8e0ef932a1d6e464eb15a0433537f22f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_light_03.mat using Guid(8e0ef932a1d6e464eb15a0433537f22f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f9153d010d81e0e26c054168091f0d4') in 0.0449768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Anime Tokyo/Materials/M_pavingstone_02.mat
-  artifactKey: Guid(1d616a79a9a61104a960a999632d6c74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_pavingstone_02.mat using Guid(1d616a79a9a61104a960a999632d6c74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae11a52bf12254c563677691b852ea22') in 0.0781758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Anime Tokyo/Materials/M_signboards_tokyo_01.mat
-  artifactKey: Guid(df142ab1558f3434caaa52acb7eb6ebe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_signboards_tokyo_01.mat using Guid(df142ab1558f3434caaa52acb7eb6ebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fef4d7ffaf1bd2b83550a5af6a5d4538') in 0.0406738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Anime Tokyo/Materials/M_line_decal_01 2.mat
-  artifactKey: Guid(3b652d98c9b704442bdb8db7bd6b0a17) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_line_decal_01 2.mat using Guid(3b652d98c9b704442bdb8db7bd6b0a17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9116e8b00a05df47e3713351ce08cce2') in 0.0476955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Anime Tokyo/Materials/M_led_vertical 1.mat
-  artifactKey: Guid(a9be3351fdc867f4ba5a2374aa6d55b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_led_vertical 1.mat using Guid(a9be3351fdc867f4ba5a2374aa6d55b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5ec04348012d25e6e71f53cc1ce9fa8') in 0.0781004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Anime Tokyo/Materials/M_light.mat
-  artifactKey: Guid(52ec67dd6616ab3448946b8bf747400d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_light.mat using Guid(52ec67dd6616ab3448946b8bf747400d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cdcbd2ae42fa1f66684734092e57bd3') in 0.0378576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75f2b6ca2ae137de2e60d7389b941962') in 0.0312964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Anime Tokyo/Materials/M_trafficpylon.mat
-  artifactKey: Guid(6c36523bf8667b341b74539c87741f86) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_trafficpylon.mat using Guid(6c36523bf8667b341b74539c87741f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bace5646febe81931e835320e0a5826b') in 0.0567901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Anime Tokyo/Materials/M_vendingmachine 1.mat
-  artifactKey: Guid(1987d99d4fbac7746aac2bb3cd302b14) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_vendingmachine 1.mat using Guid(1987d99d4fbac7746aac2bb3cd302b14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '761645a37536d0fa057ec383344ffbd0') in 0.069556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 5.mat
-  artifactKey: Guid(1c00f497469f34741b5d340eb60846a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 5.mat using Guid(1c00f497469f34741b5d340eb60846a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7ca1bfe9bbb9dab2755aa1f4cea9738') in 0.066064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 23.mat
-  artifactKey: Guid(f46bcf91443849540ab35d06384e68ca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 23.mat using Guid(f46bcf91443849540ab35d06384e68ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f49180d3f7d9138e8d05aa5fd3c5880') in 0.0569281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Anime Tokyo/Materials/M_walls_suburbs_01 1.mat
-  artifactKey: Guid(f1e19984917aced49b97c0e3e9a0d76c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_walls_suburbs_01 1.mat using Guid(f1e19984917aced49b97c0e3e9a0d76c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b49ee9854db6e21bd206eb69bf9d4004') in 0.0836535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Anime Tokyo/Materials/M_trafficlights.mat
-  artifactKey: Guid(ec284bf4fe96f474ea817018cab204b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_trafficlights.mat using Guid(ec284bf4fe96f474ea817018cab204b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45beb14de095537886cfdf0620f67e4e') in 0.0445508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 2.mat
-  artifactKey: Guid(472f01f66589a434d9dcd5fc8123debe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 2.mat using Guid(472f01f66589a434d9dcd5fc8123debe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df9a451490c6bd41fefd9de17db79bdc') in 0.0614464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 22.mat
-  artifactKey: Guid(27f0bb0a1139abc44b1796d1ac0e0863) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 22.mat using Guid(27f0bb0a1139abc44b1796d1ac0e0863) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4c6c98ef07c4f1c28e20bb9311b31e2') in 0.1005223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 11.mat
-  artifactKey: Guid(5db2d7851a02a3a459d9325dc1eeedd8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 11.mat using Guid(5db2d7851a02a3a459d9325dc1eeedd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64b07b8607fd37bf05c76bfd53c8dfad') in 0.0603471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 3.mat
-  artifactKey: Guid(00d35f02fae922e4b9bda1cad56ada6d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 3.mat using Guid(00d35f02fae922e4b9bda1cad56ada6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f88e17ee92c0143c4042b772f4a64f97') in 0.0656222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 7.mat
-  artifactKey: Guid(1758bc40920c0334aace758f4701d965) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 7.mat using Guid(1758bc40920c0334aace758f4701d965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5d38f49b8e7e944f152dbc7069af76e') in 0.0301134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 10.mat
-  artifactKey: Guid(126f94d62fb12d64a94b25a85b4e592b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 10.mat using Guid(126f94d62fb12d64a94b25a85b4e592b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58979e9d89224a48f94031004b28cdcf') in 0.028657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Anime Tokyo/Materials/M_doors_residental.mat
-  artifactKey: Guid(c2666611fddbad7438a9a1bf72bfbc3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_doors_residental.mat using Guid(c2666611fddbad7438a9a1bf72bfbc3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ae679f2d5809b4cce86d5050f128332') in 0.0317873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ry040cx9hon4-AK-47/AK-47.blend
-  artifactKey: Guid(2c4b038b8b486f542a042385a4962a9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/ry040cx9hon4-AK-47/AK-47.blend using Guid(2c4b038b8b486f542a042385a4962a9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe86a4d2490b8c6272c1aa931597e9f5') in 0.1687299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(ab430f308bdfaaf4e99431a44c6ae2bc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(ab430f308bdfaaf4e99431a44c6ae2bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3fbc84d038cd7d127b0e0fa400ad375') in 0.0400102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/M_decal_stripes.mat
-  artifactKey: Guid(67121941c09d4fc499df17559cf10b4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_decal_stripes.mat using Guid(67121941c09d4fc499df17559cf10b4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1aab865f5e809abfe83a5ad399ea001') in 0.0566793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Anime Tokyo/Materials/M_pavingstone_01_wet.mat
-  artifactKey: Guid(18d4951b230fdb740a0dc114b31c0b98) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_pavingstone_01_wet.mat using Guid(18d4951b230fdb740a0dc114b31c0b98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1472a51ab979ea9bf43c7a2442a128da') in 0.050886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Anime Tokyo/Materials/M_car_sports_var 2.mat
-  artifactKey: Guid(c372899907e13984a9413a219343a2c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_car_sports_var 2.mat using Guid(c372899907e13984a9413a219343a2c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33e2bf25f9bbd7df19af0ccd64cda56c') in 0.0514785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Anime Tokyo/Materials/M_tiles_standard 8.mat
-  artifactKey: Guid(f0349d6e2bb6a8f4696eddad38d59ec4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_tiles_standard 8.mat using Guid(f0349d6e2bb6a8f4696eddad38d59ec4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f65d7840690f6d8ac7c235889461061') in 0.0398314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Anime Tokyo/Materials/M_coil.mat
-  artifactKey: Guid(f84d93ebf5d8e1143b6114844c97f134) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_coil.mat using Guid(f84d93ebf5d8e1143b6114844c97f134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63cafe1f00792ecb4fafaebbe27b6656') in 0.0368388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Anime Tokyo/Materials/M_beams_white 1.mat
-  artifactKey: Guid(3a0ac368119e47e4bac16ad6841c7743) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_beams_white 1.mat using Guid(3a0ac368119e47e4bac16ad6841c7743) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71ad74f1db87d148b65e5ca0c697ec6c') in 0.0324235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Anime Tokyo/Materials/M_pipes.mat
-  artifactKey: Guid(810cbe57c8eefe442854d8f1dc4f0527) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_pipes.mat using Guid(810cbe57c8eefe442854d8f1dc4f0527) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2d9b1e6665e3a11f9331b2562d11511') in 0.0424276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Anime Tokyo/Materials/M_car_sports_base 1.mat
-  artifactKey: Guid(cf49338b063decc49998ce3b6ddeec30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_car_sports_base 1.mat using Guid(cf49338b063decc49998ce3b6ddeec30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '180da1b0bedf99b42a9b2646f2051f42') in 0.039133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/M_opacity.mat
-  artifactKey: Guid(4ec613dcb65ea2647872f5ad3197858e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_opacity.mat using Guid(4ec613dcb65ea2647872f5ad3197858e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a06e1a82ddb11239eecc34209ea8446') in 0.065168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/EnemyAnim/Scary Zombie Pack/zombie biting (2).fbx
-  artifactKey: Guid(cf9d5dfe8f7a7c74b859300514f13381) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/EnemyAnim/Scary Zombie Pack/zombie biting (2).fbx using Guid(cf9d5dfe8f7a7c74b859300514f13381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bade8744c911015e339b9d9062fcbcee') in 0.0734972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Anime Tokyo/Materials/M_wall_stone.mat
-  artifactKey: Guid(f6f6209accd603b41b7659f89288839f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_wall_stone.mat using Guid(f6f6209accd603b41b7659f89288839f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '690ae6c7f1966b234b2c3e7249344409') in 0.0477613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f4551b052f0f1d774cac92da047ebfc') in 0.0282536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Ready Player Me/Core/SUPPORT.md
-  artifactKey: Guid(bb220a5c05e6a45d69f93ad3f8675810) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ready Player Me/Core/SUPPORT.md using Guid(bb220a5c05e6a45d69f93ad3f8675810) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bd8e0bcb77296df90920116f451139c') in 0.0408833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Anime Tokyo/Materials/M_wordsigns_01 2.mat
-  artifactKey: Guid(6aab31443bcbed146b056528c5b3bcc9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_wordsigns_01 2.mat using Guid(6aab31443bcbed146b056528c5b3bcc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47043746f4349ec820035ed9c7030d4a') in 0.0656198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ready Player Me/Core/CHANGELOG.md
-  artifactKey: Guid(7a3e4746243f04549af24f9f9eca1f06) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ready Player Me/Core/CHANGELOG.md using Guid(7a3e4746243f04549af24f9f9eca1f06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7bf382b89f44c016306e3b0f8b778ac') in 0.0419679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Anime Tokyo/Materials/Skybox Materials/Skybox Cloudy.mat
-  artifactKey: Guid(866557bf5802a684ab539a700ceb2e6d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Skybox Materials/Skybox Cloudy.mat using Guid(866557bf5802a684ab539a700ceb2e6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acbe29b358170a51c050886703a8c203') in 0.0628945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ready Player Me/Core/LICENSE.md
-  artifactKey: Guid(ff501dbd593903340855c69995dbbc58) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ready Player Me/Core/LICENSE.md using Guid(ff501dbd593903340855c69995dbbc58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a135f102258740ff6449a5adba2f05ed') in 0.0362886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Anime Tokyo/Materials/M_wall_plater 1.mat
-  artifactKey: Guid(cf90225f1c236fe45a9b13afbd7d504a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_wall_plater 1.mat using Guid(cf90225f1c236fe45a9b13afbd7d504a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acbe2fe6b0dd926a78598e45b1e4233d') in 0.0292583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/EnemyAnim/Scary Zombie Pack/zombie biting.fbx
-  artifactKey: Guid(83cb7260671bf4d46a32df8704199a9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/EnemyAnim/Scary Zombie Pack/zombie biting.fbx using Guid(83cb7260671bf4d46a32df8704199a9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b51707a4a67d2568c4c4645aebaa7380') in 0.0635512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.431307 seconds.
-  path: Assets/ry040cx9hon4-AK-47/untitled.png
-  artifactKey: Guid(05bf052332d7ca64786df0a6eaacf718) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/ry040cx9hon4-AK-47/untitled.png using Guid(05bf052332d7ca64786df0a6eaacf718) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77ac06d1e137d608c67d097bf017e14e') in 0.2400788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/CHV.png
-  artifactKey: Guid(081aeb2646d410f48b6923eec9d38913) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/CHV.png using Guid(081aeb2646d410f48b6923eec9d38913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a425c367c3465fe5d5caee03761f1817') in 0.0664155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_wifi.png
-  artifactKey: Guid(8add395530ba8b643b7daf8af39396e7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_wifi.png using Guid(8add395530ba8b643b7daf8af39396e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb40b4cce64035a8eb5384cc25aae159') in 0.0498698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_aircon_MaskMap.png
-  artifactKey: Guid(d50d20ca5f432a1429974e4e9b0f072f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_aircon_MaskMap.png using Guid(d50d20ca5f432a1429974e4e9b0f072f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffe96d7f216343e47048d17c96193cea') in 0.0524202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_monja.png
-  artifactKey: Guid(3d33fb5fa865eda4b9caebe2ea166cf9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_monja.png using Guid(3d33fb5fa865eda4b9caebe2ea166cf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6304ad3b609f540a49cfcd59a585977') in 0.0569029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_man_01.png
-  artifactKey: Guid(9a70e829bdb3cd040a37caf01ef0bbf4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_man_01.png using Guid(9a70e829bdb3cd040a37caf01ef0bbf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da0d3e93ca20536fe8d7e1938ab0305d') in 0.0666622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_inforcenter.png
-  artifactKey: Guid(7cd65c3039944ca438cb6659da088c9e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_inforcenter.png using Guid(7cd65c3039944ca438cb6659da088c9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa8054cff32d89803a62374857aff930') in 0.0613106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_izakaya_02.png
-  artifactKey: Guid(ff863bdb1412d784dbf9f7653769f4ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_izakaya_02.png using Guid(ff863bdb1412d784dbf9f7653769f4ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eac2594924086225c7c88f120b34e837') in 0.0531801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_baristacoffee.png
-  artifactKey: Guid(2fcd84b4e490d954bb105551f062828b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_baristacoffee.png using Guid(2fcd84b4e490d954bb105551f062828b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29574b14c3517f27dd20c1c0444267b3') in 0.0532864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_asphalt_02_diff.png
-  artifactKey: Guid(aaba07b8516f6f34e97166378131e3e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_asphalt_02_diff.png using Guid(aaba07b8516f6f34e97166378131e3e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00911d136717b98bac0ed3e6bd9e5e44') in 0.0394863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_aircon_BaseMap.png
-  artifactKey: Guid(b47d503212842a2448373d22d1cf6f17) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_aircon_BaseMap.png using Guid(b47d503212842a2448373d22d1cf6f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65a0e4e84a5949e907eeb3d31cbcdae5') in 0.0455521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/Bricks071_1K_NormalDX.png
-  artifactKey: Guid(0a3ec49c5e4e49c4f9907011e34d4d25) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/Bricks071_1K_NormalDX.png using Guid(0a3ec49c5e4e49c4f9907011e34d4d25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69c18f6a5dd67eec6de16a193015eacf') in 0.0573129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_beams_white_MaskMap.png
-  artifactKey: Guid(42df1aaf61b43184a9e060ad225bea63) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_beams_white_MaskMap.png using Guid(42df1aaf61b43184a9e060ad225bea63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f6ae57e5b6890db73a08b4e7b86fa01') in 0.0713162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_billboard_bookstore.png
-  artifactKey: Guid(f6b1a8857294d514fbc465a58c414ce2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_billboard_bookstore.png using Guid(f6b1a8857294d514fbc465a58c414ce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3ac8bf6e69bfa2333e02dc262575421') in 0.0599333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_blindguidance_Normal.png
-  artifactKey: Guid(7ae38d154ea779446b98ec9b47075c5c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_blindguidance_Normal.png using Guid(7ae38d154ea779446b98ec9b47075c5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6652cceeb4bffc8bb81e876a63befbc') in 0.0640964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_beams_red_MaskMap.png
-  artifactKey: Guid(1b2363e37ddb94f4dbaa364f1705eb92) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_beams_red_MaskMap.png using Guid(1b2363e37ddb94f4dbaa364f1705eb92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ed36e2d53bb2cdf777b62fa081b893d') in 0.0502859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_bark_01_BaseColor.png
-  artifactKey: Guid(b519816c8d7764c4694e56fc2f0a23cf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_bark_01_BaseColor.png using Guid(b519816c8d7764c4694e56fc2f0a23cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1594008e182a30ddbfe8e7811b753eab') in 0.0474311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_beams_metal_BaseMap.png
-  artifactKey: Guid(7f6b64dad3d0c9f49946e91abcef76f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_beams_metal_BaseMap.png using Guid(7f6b64dad3d0c9f49946e91abcef76f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e45437b43f9a314c0cf8653a3a0a4c7') in 0.0390294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_beams_black_MaskMap.png
-  artifactKey: Guid(2d0b1ff1808a9474ba9b21718183deda) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_beams_black_MaskMap.png using Guid(2d0b1ff1808a9474ba9b21718183deda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c1d89f0306045efd07eb49b35dd6cfe') in 0.0944034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_blindguidance_MaskMap.png
-  artifactKey: Guid(11212cd479e44fb4fa3ed870f6a7e176) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_blindguidance_MaskMap.png using Guid(11212cd479e44fb4fa3ed870f6a7e176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4553abcca2907640c5ce5019aa8a493') in 0.0483326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_border_walls_BaseMap.png
-  artifactKey: Guid(6fad2d93ef0698040acd9e380a887578) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_border_walls_BaseMap.png using Guid(6fad2d93ef0698040acd9e380a887578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ac1fabc79331acbcc0a9c821fa7ab36') in 0.055405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/billboard_videogamecenter.png
-  artifactKey: Guid(064e5e04f732e9241aafd27cdf2b18c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/billboard_videogamecenter.png using Guid(064e5e04f732e9241aafd27cdf2b18c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ca5fc0d7841b51bfb828af774205192') in 0.0633464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_attachments_residental_Normal.png
-  artifactKey: Guid(ab48ca886289e5841b2b11cfcc720780) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_attachments_residental_Normal.png using Guid(ab48ca886289e5841b2b11cfcc720780) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cb60c5d697816bb0d960a7f80276fca') in 0.0774274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Anime Tokyo/Materials/M_signboards_tokyo_horizontal.mat
-  artifactKey: Guid(8846cd685b122f3408c011b4fcaa9be1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_signboards_tokyo_horizontal.mat using Guid(8846cd685b122f3408c011b4fcaa9be1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f2c7f07573458a141ba6e4191c5dda5') in 0.0588035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_03_roughness.png
-  artifactKey: Guid(36b7092749f35ba41bbe42d6d44c9043) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_03_roughness.png using Guid(36b7092749f35ba41bbe42d6d44c9043) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab9372967e92e28c652ebebf346f3f93') in 0.0573116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_Normal.png
-  artifactKey: Guid(10ee0732430967c4184028616e021dc7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_Normal.png using Guid(10ee0732430967c4184028616e021dc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc2f05552ce87c07f0b2cd166ef299b5') in 0.0533325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_car_sport_attachments_BaseMap.png
-  artifactKey: Guid(5654642203b3f29458dd0fdfc72f83cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_car_sport_attachments_BaseMap.png using Guid(5654642203b3f29458dd0fdfc72f83cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f3045f1659a913f6debeb667cefc6e0') in 0.046202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_varBaseMap.png
-  artifactKey: Guid(02e0c036aa30a0045b61db8339cfd0fd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_varBaseMap.png using Guid(02e0c036aa30a0045b61db8339cfd0fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dabb1603503bef756ad01afb88dbecb') in 0.0691277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_red_Normal.png
-  artifactKey: Guid(26fe6c6800bc81d43b74747183ba4fa8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_red_Normal.png using Guid(26fe6c6800bc81d43b74747183ba4fa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b0bff0f91a7666cf457dd6a01124ee5') in 0.0466409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_coil_Normal.png
-  artifactKey: Guid(3838cb4417404fd40821f0220e93404a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_coil_Normal.png using Guid(3838cb4417404fd40821f0220e93404a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bfe8764ecbadc2c548afabd0f51d24b') in 0.0489321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_decal_30.png
-  artifactKey: Guid(618fad859bc60a141a8ac7bfc82f8003) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_decal_30.png using Guid(618fad859bc60a141a8ac7bfc82f8003) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70bb9b9866fb480b6efb0d98728e2e20') in 0.0671786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_varMaskMap 1.png
-  artifactKey: Guid(6581f12188562f84ebd5c392dcea1bb0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_car_sport_base_varMaskMap 1.png using Guid(6581f12188562f84ebd5c392dcea1bb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28fb3f828d6a25ca919f9a7d46fb5cff') in 0.0758054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_03_BaseColor.png
-  artifactKey: Guid(5fb609d49375b1f4c94103592e8cf034) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_bricks_wall_03_BaseColor.png using Guid(5fb609d49375b1f4c94103592e8cf034) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48049cbdf7d47640c4b4bda70d3bb43b') in 0.0445241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_bottles_MaskMap.png
-  artifactKey: Guid(80a61343d56e13642b79e453b0f378b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_bottles_MaskMap.png using Guid(80a61343d56e13642b79e453b0f378b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '821f523ed5614d4b76aa4cc8ae562fb2') in 0.0736376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_cosmeticstore_wordsign_BaseMap.png
-  artifactKey: Guid(fa8db8449607a894784ca47e396902ad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_cosmeticstore_wordsign_BaseMap.png using Guid(fa8db8449607a894784ca47e396902ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4251bf3a3ddf335474bf773359f7f02') in 0.0625802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_fuseboxes_01_MaskMap.png
-  artifactKey: Guid(b7c3e1c85085db747a973ce44a623800) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_fuseboxes_01_MaskMap.png using Guid(b7c3e1c85085db747a973ce44a623800) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e88b3e8ab03b305abbf76a74f005e38e') in 0.0918845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_emergencysigns_MaskMap.png
-  artifactKey: Guid(6ed818452e0c87f46adf764476875a04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_emergencysigns_MaskMap.png using Guid(6ed818452e0c87f46adf764476875a04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1033df3f603ce52847616145d740835a') in 0.0667632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_grungemap_01.png
-  artifactKey: Guid(d88eb80cdcebb314bbad6fe8111ec0c8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_grungemap_01.png using Guid(d88eb80cdcebb314bbad6fe8111ec0c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b33d99b19d2ccff6710193aacd3bbc9c') in 0.0683352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_fences_suburbs_MaskMap.png
-  artifactKey: Guid(d664aa8847e5e0a46b3d96fb51197f1d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_fences_suburbs_MaskMap.png using Guid(d664aa8847e5e0a46b3d96fb51197f1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f74734accb17ee1bb1b6295aa5f26a24') in 0.0721726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_gate_citycenter_Emissive.png
-  artifactKey: Guid(53e615843eaee3143b75d0930c02ec94) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_gate_citycenter_Emissive.png using Guid(53e615843eaee3143b75d0930c02ec94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3e0bdab526e6c2cd0a7a1815b714c97') in 0.0597253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_fences_01_Normal.png
-  artifactKey: Guid(b3f0470c0e22f9944afc7e5602257a5f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_fences_01_Normal.png using Guid(b3f0470c0e22f9944afc7e5602257a5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e389ad6c874d9498f0b986165e77b310') in 0.0449281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_guardrails_MaskMap.png
-  artifactKey: Guid(c20a510094d15ca43835c21c9677cbcc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_guardrails_MaskMap.png using Guid(c20a510094d15ca43835c21c9677cbcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fab59bb2a1c62f6962a6459c7a6a7b4a') in 0.0613653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_guardrails_BaseMap.png
-  artifactKey: Guid(63bc2cc92a31cda4cbf7583d770c4565) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_guardrails_BaseMap.png using Guid(63bc2cc92a31cda4cbf7583d770c4565) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4ff3a207bbec5282a8da09b137fd34a') in 0.0524074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_flower_01.png
-  artifactKey: Guid(1024c83f981a4d64e83d05e07d42b698) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_flower_01.png using Guid(1024c83f981a4d64e83d05e07d42b698) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '353f97ece9ae9ae9b7f5a7ff0a93ba11') in 0.1550427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_gate_citycenter_MaskMap.png
-  artifactKey: Guid(8bab912a99e7e664c9caddb0b65d084c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_gate_citycenter_MaskMap.png using Guid(8bab912a99e7e664c9caddb0b65d084c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa7af7b914927c9c989b95d490f22022') in 0.1294782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_licenseplate_BaseMap.png
-  artifactKey: Guid(cfe6d3e610f057f41a5e36b81f418653) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_licenseplate_BaseMap.png using Guid(cfe6d3e610f057f41a5e36b81f418653) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65a1aeb32ad509c857889f174e56c878') in 0.0912294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_lights_billboard_Emissive.png
-  artifactKey: Guid(d3b0b8e534472e24293b20b636a9f9ac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_lights_billboard_Emissive.png using Guid(d3b0b8e534472e24293b20b636a9f9ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82cfb0db21cc8dd23d1124d19941c919') in 0.0515033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_konbinientrance_Normal.png
-  artifactKey: Guid(54009db2f28d8f44aba95b3f35e19576) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_konbinientrance_Normal.png using Guid(54009db2f28d8f44aba95b3f35e19576) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39ca8f7911b547c5e1693f65d3be973a') in 0.0656714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_LED_emmision.png
-  artifactKey: Guid(8ed4f3eca9917874c995ddc71de4396e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_LED_emmision.png using Guid(8ed4f3eca9917874c995ddc71de4396e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9274200d669e6b36a84081bda62bc601') in 0.0410728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_lanterns_extra_BaseMap.png
-  artifactKey: Guid(a610a3547133310448679ddd35de10b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_lanterns_extra_BaseMap.png using Guid(a610a3547133310448679ddd35de10b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d61cd504fd7fb05f09eebb3b2160baf') in 0.0352108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_konbinientrance_MaskMap.png
-  artifactKey: Guid(7c09f524f45ab4243845e7eac72e6cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_konbinientrance_MaskMap.png using Guid(7c09f524f45ab4243845e7eac72e6cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e98dcc82312a04d2c2984096ad81ad0') in 0.0595241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_neonsigns_BaseMap.png
-  artifactKey: Guid(bbc31edda96876748862488c684e4abc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_neonsigns_BaseMap.png using Guid(bbc31edda96876748862488c684e4abc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b69ce3d3cc32e25248c7b87b34ed8e57') in 0.0542016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_lanterns_extra_MaskMap.png
-  artifactKey: Guid(5fbb8bf090c772c4b8bf935b4b35a8e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_lanterns_extra_MaskMap.png using Guid(5fbb8bf090c772c4b8bf935b4b35a8e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b02c2bb9e297147f4916840185cbfbaa') in 0.0892249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_floortiles_nrm.png
-  artifactKey: Guid(c4be11768400d7c48841f907f90dfe78) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_floortiles_nrm.png using Guid(c4be11768400d7c48841f907f90dfe78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b011fa6328808913cb284ce0792a3b80') in 0.0925088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Anime Tokyo/Materials/M_light_blue_01.mat
-  artifactKey: Guid(71f04919dec759548842c18e4528d4f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_light_blue_01.mat using Guid(71f04919dec759548842c18e4528d4f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ef1e4cd805107deb84920dedd27cf6b') in 0.0713094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pavingstones_03_BaseColor.png
-  artifactKey: Guid(6b139527904d7304cacb3415971cff31) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pavingstones_03_BaseColor.png using Guid(6b139527904d7304cacb3415971cff31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3f7876bb841f531d0f3d364727a1a40') in 0.0803466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pedestriancrossing4.png
-  artifactKey: Guid(fa4ca296c5ca6af4aa4226d08ac39ebc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pedestriancrossing4.png using Guid(fa4ca296c5ca6af4aa4226d08ac39ebc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afa6c8e29f225003541b6d608b88dd59') in 0.0595171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pedestriancrossing2.png
-  artifactKey: Guid(6db8630dbce0f7442ad3ae761508dfce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pedestriancrossing2.png using Guid(6db8630dbce0f7442ad3ae761508dfce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28d739c7a0048b18d5b83796441e0d6d') in 0.0839621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pavingstones_02_Normal.png
-  artifactKey: Guid(097814ffd7b01da458b79cbc5b3d6267) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pavingstones_02_Normal.png using Guid(097814ffd7b01da458b79cbc5b3d6267) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7e38d27a9ad00d856c0fa780c3fff56') in 0.1496771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Anime Tokyo/Materials/M_windows_dark 1.mat
-  artifactKey: Guid(0c0366f8bbd7ec6468d8ce4773f7bae3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_windows_dark 1.mat using Guid(0c0366f8bbd7ec6468d8ce4773f7bae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a3c153b7ff7e7aada89e14c58c364a6') in 0.0882557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_roundmirror_02BaseMap.png
-  artifactKey: Guid(6314dcbca46eb904b9216ee6e6f37d5e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_roundmirror_02BaseMap.png using Guid(6314dcbca46eb904b9216ee6e6f37d5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a631ca88189b9bc541f6c3fccadee4a7') in 0.0824127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_roundmirror_BaseMap.png
-  artifactKey: Guid(2aca8bdde51dc7c4da054ac09a4c4c20) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_roundmirror_BaseMap.png using Guid(2aca8bdde51dc7c4da054ac09a4c4c20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63bdcf042fe28bbb5a8405532a37a036') in 0.0530412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pillar_metal_metro_MaskMap.png
-  artifactKey: Guid(bec41fe2f7c9849458127e9c8c06d275) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pillar_metal_metro_MaskMap.png using Guid(bec41fe2f7c9849458127e9c8c06d275) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ab17528b300a09db7ecb20bb857856') in 0.0923306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Ready Player Me/Core/package.json
-  artifactKey: Guid(7a427addec78e544fa162ef1f0b7682b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ready Player Me/Core/package.json using Guid(7a427addec78e544fa162ef1f0b7682b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fe60c31b4be10d3e4099f73dcdc1e8b') in 0.0609467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Plane.asset
-  artifactKey: Guid(5fde28681e2eeb845986e351ef065307) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene/NavMesh-Plane.asset using Guid(5fde28681e2eeb845986e351ef065307) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62c7b76f70797adea78fbcc6f5162acb') in 0.0940635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_parasols_storefront_BaseMap.png
-  artifactKey: Guid(b6d1e19c1f3a56d42ad3d53cc429348f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_parasols_storefront_BaseMap.png using Guid(b6d1e19c1f3a56d42ad3d53cc429348f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '726d5e4a993c08d9477832398d518b8f') in 0.0520661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_props_street_01_MaskMap.png
-  artifactKey: Guid(47896a865514731459072aacea94a386) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_props_street_01_MaskMap.png using Guid(47896a865514731459072aacea94a386) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'beea6e096d26eb4c1556d708e602c68d') in 0.071313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_road_decal_BaseColor.png
-  artifactKey: Guid(2b912d7d4d288fe4681ad981e16d2bad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_road_decal_BaseColor.png using Guid(2b912d7d4d288fe4681ad981e16d2bad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03e133865502260e1bff4a61e1796f87') in 0.0464738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/EnemyAnim/Scary Zombie Pack/zombie attack.fbx
-  artifactKey: Guid(05e754e8d1ad35f4f8bc3f381dfad7f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/EnemyAnim/Scary Zombie Pack/zombie attack.fbx using Guid(05e754e8d1ad35f4f8bc3f381dfad7f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea04dcdd25eb6b37798a3926a52326fe') in 0.0413567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_road_decal_Normal.png
-  artifactKey: Guid(7ea4cc7f849e80a4c908f6dc23525ebd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_road_decal_Normal.png using Guid(7ea4cc7f849e80a4c908f6dc23525ebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebd7e4671ad26017282deb74f40e8273') in 0.0537493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Anime Tokyo/Materials/M_wall_plater 2.mat
-  artifactKey: Guid(63aaad135bf606244b4fae7bfc6b9c51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_wall_plater 2.mat using Guid(63aaad135bf606244b4fae7bfc6b9c51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '693abc7f9a561ddfda76779c41690f4a') in 0.0396254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/CityStreet Scene/NavMesh-Plane.asset
-  artifactKey: Guid(abe6b12565fd64740b0a8247642e66fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/CityStreet Scene/NavMesh-Plane.asset using Guid(abe6b12565fd64740b0a8247642e66fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd00d3f8281f4232cefb6977a6e50b9ad') in 0.0259875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_parasols_storefront_Normal.png
-  artifactKey: Guid(0f3b4108f0f826e448f05c050664e84f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_parasols_storefront_Normal.png using Guid(0f3b4108f0f826e448f05c050664e84f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '558cc15d826f4757ee306c556b64b762') in 0.0546455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/EnemyAnim/Scary Zombie Pack/running crawl.fbx
-  artifactKey: Guid(396bea4e3bdb85e4a9b2430bf15b7f51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/EnemyAnim/Scary Zombie Pack/running crawl.fbx using Guid(396bea4e3bdb85e4a9b2430bf15b7f51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '193522eb373a3c6e84d14984de0e91d3') in 0.063511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Anime Tokyo/Materials/M_window_light.mat
-  artifactKey: Guid(8a510f982e8a7c740a9e9e51f059b5a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/M_window_light.mat using Guid(8a510f982e8a7c740a9e9e51f059b5a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1131cc6adc2f7df4ed8f001d6b5f86b7') in 0.0479466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Ready Player Me/Core/ReadyPlayerMe.Core.asmdef
-  artifactKey: Guid(96af4ea235d92d245a095007c6ca3701) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ready Player Me/Core/ReadyPlayerMe.Core.asmdef using Guid(96af4ea235d92d245a095007c6ca3701) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b2cc2f604a5835a0839f3b36764d9b1') in 0.068668 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/rifle aiming idle.fbx
-  artifactKey: Guid(1c4a668bb0cb65f489927f8c916b977f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/rifle aiming idle.fbx using Guid(1c4a668bb0cb65f489927f8c916b977f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '683d7a6701be96f660cde4fb07e53c69') in 0.0441198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_rooftiles_01_Normal.png
-  artifactKey: Guid(47909a5e4bcd8024498ba6ec0b84cd85) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_rooftiles_01_Normal.png using Guid(47909a5e4bcd8024498ba6ec0b84cd85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5311dc02fed5b2a50c5f4f68a989e513') in 0.0370716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/walking backwards.fbx
-  artifactKey: Guid(857f204fd4fe6cd4ab6b0179778a2196) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/walking backwards.fbx using Guid(857f204fd4fe6cd4ab6b0179778a2196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5ae23b40ba2ca58eff2cf0e364bafe9') in 0.0369727 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pillar_metal_metro_BaseMap.png
-  artifactKey: Guid(b080e73634f650f4fa07e7e6c4d1df4f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pillar_metal_metro_BaseMap.png using Guid(b080e73634f650f4fa07e7e6c4d1df4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15ca139fd931869e0a922da820eb8d20') in 0.0451707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_pipes_01_BaseMap.png
-  artifactKey: Guid(49709b29f46b168479e7f4a04b6863ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_pipes_01_BaseMap.png using Guid(49709b29f46b168479e7f4a04b6863ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bfa55733ba4462f1b816a1665255faf') in 0.0530526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/jump forward.fbx
-  artifactKey: Guid(034992d963ba9f243a496b8ce74cfbb0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UE5Manny_Threepeat_Rifle_StarterPack_V1/Shooter Pack/jump forward.fbx using Guid(034992d963ba9f243a496b8ce74cfbb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0de8aacd7039c839d4ee8423a916d3b') in 0.0369896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.836 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.212 seconds
-Domain Reload Profiling: 6067ms
-	BeginReloadAssembly (1585ms)
-		ExecutionOrderSort (2ms)
-		DisableScriptedObjects (39ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (941ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (2081ms)
-		LoadAssemblies (1666ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (713ms)
-			TypeCache.Refresh (33ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (614ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (2213ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1682ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (281ms)
-			ProcessInitializeOnLoadAttributes (1180ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8441 unused Assets / (43.2 MB). Loaded Objects now: 8831.
-Memory consumption went from 243.0 MB to 199.8 MB.
-Total: 60.289200 ms (FindLiveObjects: 2.272500 ms CreateObjectMapping: 3.096900 ms MarkObjects: 16.068900 ms  DeleteObjects: 38.847000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8432 unused Assets / (42.0 MB). Loaded Objects now: 8831.
-Memory consumption went from 243.1 MB to 201.0 MB.
-Total: 343.913100 ms (FindLiveObjects: 2.128200 ms CreateObjectMapping: 2.146500 ms MarkObjects: 311.798800 ms  DeleteObjects: 27.836400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.313 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.055 seconds
-Domain Reload Profiling: 5382ms
-	BeginReloadAssembly (639ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (278ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (2477ms)
-		LoadAssemblies (2116ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (536ms)
-			TypeCache.Refresh (35ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (420ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2057ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1637ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (298ms)
-			ProcessInitializeOnLoadAttributes (1133ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (4ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 6.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (43.2 MB). Loaded Objects now: 8834.
-Memory consumption went from 243.0 MB to 199.8 MB.
-Total: 71.729500 ms (FindLiveObjects: 3.056200 ms CreateObjectMapping: 2.853700 ms MarkObjects: 18.202800 ms  DeleteObjects: 47.614200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.027 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.845 seconds
-Domain Reload Profiling: 3871ms
-	BeginReloadAssembly (485ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (1371ms)
-		LoadAssemblies (977ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (653ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (553ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (1846ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1454ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (293ms)
-			ProcessInitializeOnLoadAttributes (994ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (43.2 MB). Loaded Objects now: 8837.
-Memory consumption went from 243.0 MB to 199.8 MB.
-Total: 74.087900 ms (FindLiveObjects: 1.903200 ms CreateObjectMapping: 1.785000 ms MarkObjects: 13.114200 ms  DeleteObjects: 57.282000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8432 unused Assets / (42.7 MB). Loaded Objects now: 8837.
-Memory consumption went from 243.1 MB to 200.4 MB.
-Total: 277.144800 ms (FindLiveObjects: 4.862400 ms CreateObjectMapping: 2.494500 ms MarkObjects: 234.976600 ms  DeleteObjects: 34.807200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.534 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.559 seconds
-Domain Reload Profiling: 5087ms
-	BeginReloadAssembly (1319ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (61ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (573ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (2015ms)
-		LoadAssemblies (1726ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (666ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (513ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1560ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1318ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (217ms)
-			ProcessInitializeOnLoadAttributes (953ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (41.9 MB). Loaded Objects now: 8840.
-Memory consumption went from 243.0 MB to 201.1 MB.
-Total: 36.466900 ms (FindLiveObjects: 1.287700 ms CreateObjectMapping: 1.600600 ms MarkObjects: 8.162200 ms  DeleteObjects: 25.413400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.902 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.817 seconds
-Domain Reload Profiling: 4717ms
+- Finished resetting the current domain, in  2.158 seconds
+Domain Reload Profiling: 4362ms
 	BeginReloadAssembly (478ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (22ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (106ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (2248ms)
-		LoadAssemblies (1998ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (1466ms)
+		LoadAssemblies (1062ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (499ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (452ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1818ms)
+		AnalyzeDomain (665ms)
+			TypeCache.Refresh (491ms)
+				TypeCache.ScanAssembly (460ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2159ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1413ms)
+		SetupLoadedEditorAssemblies (1643ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (261ms)
-			ProcessInitializeOnLoadAttributes (996ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (1201ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (42.4 MB). Loaded Objects now: 8843.
-Memory consumption went from 243.0 MB to 200.6 MB.
-Total: 52.900000 ms (FindLiveObjects: 2.721100 ms CreateObjectMapping: 2.266800 ms MarkObjects: 7.428800 ms  DeleteObjects: 40.480600 ms)
+Unloading 312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8487 unused Assets / (43.2 MB). Loaded Objects now: 8874.
+Memory consumption went from 229.9 MB to 186.7 MB.
+Total: 28.677300 ms (FindLiveObjects: 1.622200 ms CreateObjectMapping: 1.398800 ms MarkObjects: 8.076100 ms  DeleteObjects: 17.578300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 12.387 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 7.48 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.012 seconds
-Domain Reload Profiling: 15431ms
-	BeginReloadAssembly (10094ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (69ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (377ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (2095ms)
-		LoadAssemblies (1434ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (940ms)
-			TypeCache.Refresh (49ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (793ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (3015ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2450ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (32ms)
-			BeforeProcessingInitializeOnLoad (524ms)
-			ProcessInitializeOnLoadAttributes (1628ms)
-			ProcessInitializeOnLoadMethodAttributes (225ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (42.9 MB). Loaded Objects now: 8846.
-Memory consumption went from 243.1 MB to 200.1 MB.
-Total: 80.483600 ms (FindLiveObjects: 3.047500 ms CreateObjectMapping: 5.109500 ms MarkObjects: 15.378400 ms  DeleteObjects: 56.944000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  5.415 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.366 seconds
-Domain Reload Profiling: 7798ms
-	BeginReloadAssembly (2315ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (154ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (6ms)
-		CreateAndSetChildDomain (802ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (2893ms)
-		LoadAssemblies (2525ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1071ms)
-			TypeCache.Refresh (84ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (898ms)
-			ResolveRequiredComponents (40ms)
-	FinalizeReload (2369ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1828ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (307ms)
-			ProcessInitializeOnLoadAttributes (1275ms)
-			ProcessInitializeOnLoadMethodAttributes (215ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (45ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8439 unused Assets / (43.1 MB). Loaded Objects now: 8849.
-Memory consumption went from 243.1 MB to 200.0 MB.
-Total: 67.015800 ms (FindLiveObjects: 4.973400 ms CreateObjectMapping: 3.797500 ms MarkObjects: 14.779300 ms  DeleteObjects: 43.461900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
