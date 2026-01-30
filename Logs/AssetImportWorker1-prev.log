@@ -1,35 +1,35 @@
-[Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7544 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-19T13:52:13.2826054Z"
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PREDATOR" at "2026-01-27T20:03:59.5638423Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 12171 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-19T13:52:13Z
+Date: 2026-01-27T20:03:59Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
+D:\Unity\6000.0.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/USER/Documents/GitHub/AgentZ
+D:/Unity Projects/PlayRush/AgentZ
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61845
+49401
 -licensingIpc
-LicenseClient-USER
+LicenseClient-PREDATOR
 -job-worker-count
-5
+1
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/USER/Documents/GitHub/AgentZ
-C:/Users/USER/Documents/GitHub/AgentZ
+Successfully changed project path to: D:/Unity Projects/PlayRush/AgentZ
+D:/Unity Projects/PlayRush/AgentZ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,27 +65,27 @@ C:/Users/USER/Documents/GitHub/AgentZ
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3556]  Target information:
+Player connection [20268]  Target information:
 
-Player connection [3556]  * "[IP] 10.219.196.44 [Port] 0 [Flags] 2 [Guid] 2384685791 [EditorId] 2384685791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K5OLOL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20268]  * "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2142983397 [EditorId] 2142983397 [Version] 1048832 [Id] WindowsEditor(7,GoingMerry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3556] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3556] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [20268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19872, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17240, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              845d61f9954340869ea5564f9c4445dc
-  Correlation Id:          c6fc166299d598615221701a533b8a9b
-  External correlation Id: 7235501052662862194
-  Machine Id:              OAbm5RE/DZ5+YLhXwVvKRl6scdM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-19T13:52:13.3527314Z"
-[Licensing::Module] Licensing Background thread has ended after 0.07s
+  Session Id:              ccb5c13b44724e8580c7d685eda11909
+  Correlation Id:          0ae2c1af9c634dd7c51cd59ddb2a5057
+  External correlation Id: 5788947016850248484
+  Machine Id:              FmmeQ3UVVWfnxzCKIkWuTJgrYVE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-PREDATOR" (connect: 0.00s, validation: 0.00s, handshake: 0.44s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PREDATOR-notifications" at "2026-01-27T20:04:00.0047246Z"
+[Licensing::Module] Licensing Background thread has ended after 0.44s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,84 +93,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 369.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AgentZ/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/PlayRush/AgentZ/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
-    Vendor:   ATI
-    VRAM:     3772 MB
-    Driver:   31.0.21921.11005
+    Renderer: Intel(R) HD Graphics 630 (ID=0x591b)
+    Vendor:   Intel
+    VRAM:     6085 MB
+    Driver:   31.0.101.2111
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006495 seconds.
-- Loaded All Assemblies, in  3.215 seconds
+Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.052444 seconds.
+- Loaded All Assemblies, in  8.311 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.713 seconds
-Domain Reload Profiling: 3924ms
-	BeginReloadAssembly (2736ms)
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 9599ms
+	BeginReloadAssembly (2524ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (286ms)
-		LoadAssemblies (2422ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (1380ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (258ms)
+	LoadAllAssembliesAndSetupDomain (4113ms)
+		LoadAssemblies (2541ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (277ms)
-				TypeCache.ScanAssembly (255ms)
+		AnalyzeDomain (4048ms)
+			TypeCache.Refresh (4046ms)
+				TypeCache.ScanAssembly (2670ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (714ms)
+	FinalizeReload (1288ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (585ms)
+		SetupLoadedEditorAssemblies (1183ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (482ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,349 +156,560 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 11270418903473-UnityPersXXXX
+  Id: F4-T28Q-YJH6-PZM5-T5DE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 11270192270148-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.506 seconds
+- Loaded All Assemblies, in 18.053 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.798 seconds
-Domain Reload Profiling: 4292ms
-	BeginReloadAssembly (402ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (1878ms)
-		LoadAssemblies (1185ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (928ms)
-			TypeCache.Refresh (652ms)
-				TypeCache.ScanAssembly (605ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (1799ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1297ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (217ms)
-			ProcessInitializeOnLoadAttributes (934ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 312 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8487 unused Assets / (43.2 MB). Loaded Objects now: 8873.
-Memory consumption went from 229.8 MB to 186.6 MB.
-Total: 45.611300 ms (FindLiveObjects: 2.317000 ms CreateObjectMapping: 1.927500 ms MarkObjects: 9.637200 ms  DeleteObjects: 31.727300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 157674.371890 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '902ac6723c30b1b227a46c7db004e175') in 0.0633371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.864 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.922 seconds
-Domain Reload Profiling: 3795ms
-	BeginReloadAssembly (527ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (106ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (1159ms)
-		LoadAssemblies (919ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (485ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (408ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1923ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1506ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (251ms)
-			ProcessInitializeOnLoadAttributes (1053ms)
-			ProcessInitializeOnLoadMethodAttributes (178ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8485 unused Assets / (43.2 MB). Loaded Objects now: 8892.
-Memory consumption went from 243.9 MB to 200.7 MB.
-Total: 67.466800 ms (FindLiveObjects: 2.914800 ms CreateObjectMapping: 2.731500 ms MarkObjects: 14.481800 ms  DeleteObjects: 47.335700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.341 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.556 seconds
-Domain Reload Profiling: 2900ms
-	BeginReloadAssembly (337ms)
+- Finished resetting the current domain, in 11.508 seconds
+Domain Reload Profiling: 29560ms
+	BeginReloadAssembly (294ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (863ms)
-		LoadAssemblies (684ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (17610ms)
+		LoadAssemblies (16189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (340ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (295ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1557ms)
+		AnalyzeDomain (1589ms)
+			TypeCache.Refresh (1265ms)
+				TypeCache.ScanAssembly (1223ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (11509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1211ms)
+		SetupLoadedEditorAssemblies (6260ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (248ms)
-			ProcessInitializeOnLoadAttributes (806ms)
-			ProcessInitializeOnLoadMethodAttributes (135ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (86ms)
+			BeforeProcessingInitializeOnLoad (1367ms)
+			ProcessInitializeOnLoadAttributes (3544ms)
+			ProcessInitializeOnLoadMethodAttributes (1238ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 63.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8485 unused Assets / (43.2 MB). Loaded Objects now: 8895.
-Memory consumption went from 244.0 MB to 200.7 MB.
-Total: 51.921600 ms (FindLiveObjects: 2.032500 ms CreateObjectMapping: 2.471700 ms MarkObjects: 10.257100 ms  DeleteObjects: 37.157300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 126.536331 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3e01fb192504c825e1a5cf3687bfda') in 3.0282188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 420
+Unloading 168 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8349 unused Assets / (14.7 MB). Loaded Objects now: 9022.
+Memory consumption went from 194.9 MB to 180.2 MB.
+Total: 27.267700 ms (FindLiveObjects: 2.304500 ms CreateObjectMapping: 2.131000 ms MarkObjects: 14.426400 ms  DeleteObjects: 8.404200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b6336b34a6dd3c71c881f9bdafe2af') in 0.1720522 seconds
+  Time since last request: 3550.732070 seconds.
+  path: Assets/crosshairs/triangle-05.png
+  artifactKey: Guid(fba2559337adf8c43b4d872b4df108b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-05.png using Guid(fba2559337adf8c43b4d872b4df108b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f403618cb47de87bab94f309eda24af') in 0.487808 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/ReadyPlayerMe.Samples.AvatarRenders.asmdef
-  artifactKey: Guid(8efa46cf89bf70f499a67383a7b760d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/ReadyPlayerMe.Samples.AvatarRenders.asmdef using Guid(8efa46cf89bf70f499a67383a7b760d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff312e8bc01830992e75fd336cf543ef') in 0.0019408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_heavyset.png
+  artifactKey: Guid(96cf88f410f515e438e9d7d1af0c16db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_heavyset.png using Guid(96cf88f410f515e438e9d7d1af0c16db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad237d474e09f1f44e93399f0f67a8e') in 0.4813563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Anime Tokyo/Materials/M_sign_satsupirisu.mat
-  artifactKey: Guid(f08ec6a37aa692244a8e0bb9626250bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Tokyo/Materials/M_sign_satsupirisu.mat using Guid(f08ec6a37aa692244a8e0bb9626250bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980235cfb2483cfa2c8bda35e9a88589') in 0.0590645 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cef6dec6a40a0446e6b5d9570a2f194') in 0.8567103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/crosshairs/square-02-whole.png
+  artifactKey: Guid(a95a109348dae544f8f2513c19b573e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/square-02-whole.png using Guid(a95a109348dae544f8f2513c19b573e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f38b54aa84de1595fa92f30a94ea3621') in 0.1292461 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/LoadPreviousAvatarPopup.prefab
-  artifactKey: Guid(42c66edfc5ef73f4c9aa610dc3015852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/LoadPreviousAvatarPopup.prefab using Guid(42c66edfc5ef73f4c9aa610dc3015852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7da355aa2f57661893f8ff22dbca9617') in 0.0599296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/ReadyPlayerMe.Samples.AvatarCreatorWizard.asmdef
-  artifactKey: Guid(84c2366a7d4a3f44783485159d5782e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/ReadyPlayerMe.Samples.AvatarCreatorWizard.asmdef using Guid(84c2366a7d4a3f44783485159d5782e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '148e54a2ed960da2db140c35f6c68c00') in 0.002662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2894f673181994c06fd9ca9fefdee98') in 0.1468303 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/crosshairs/triangle-04-whole.png
+  artifactKey: Guid(7a11980536e2f87499fe745398dd9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-04-whole.png using Guid(7a11980536e2f87499fe745398dd9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ffff9bf480682837a770d1d16cf2a4') in 0.0830629 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Anime Tokyo/Materials/Textures/M_sign_satsupirisu_BaseMap.png
-  artifactKey: Guid(7d19e9e3612873e4fb001a9932289c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Tokyo/Materials/Textures/M_sign_satsupirisu_BaseMap.png using Guid(7d19e9e3612873e4fb001a9932289c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdbcd3392cc0a522bb2c701c525875a') in 0.0538387 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/crosshairs/circle-05-whole.png
+  artifactKey: Guid(016609ee5bf963148a763e0e28cabc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-05-whole.png using Guid(016609ee5bf963148a763e0e28cabc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624cf160def88d0b7bd627aedc804b30') in 0.2721439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/crosshairs/circle-02-hit.png
+  artifactKey: Guid(330aaa7721f4d1f47bd826f0586f329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-02-hit.png using Guid(330aaa7721f4d1f47bd826f0586f329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e89f6b4a902bc5451a03d879af7f202') in 0.091197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Facewear.png
+  artifactKey: Guid(c03a24ffbc7040b48b2643ad417e4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Facewear.png using Guid(c03a24ffbc7040b48b2643ad417e4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20f0d314b662ccc9e99ae3d5bd4392ba') in 0.1676223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/crosshairs/circle-05-hit.png
+  artifactKey: Guid(18c05837a174cb044953046141f97dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-05-hit.png using Guid(18c05837a174cb044953046141f97dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474b6abacb74c46f55de78219684660e') in 0.1323273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
+  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '375e2e30aa54d689e05cb703900c6655') in 0.3723767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/crosshairs/square-01.png
+  artifactKey: Guid(76157ef43197ab242ac2fada1276e609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/square-01.png using Guid(76157ef43197ab242ac2fada1276e609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501d7a6969010e3a8b3f0bc1dc085669') in 0.0892882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/BeardStyle.png
+  artifactKey: Guid(a0efe28bde3261749946881eb93d210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/BeardStyle.png using Guid(a0efe28bde3261749946881eb93d210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cdcd0674290566caa35d127cb05ab02') in 0.0648126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Top.png
+  artifactKey: Guid(82c6ae5eb783ab6479720cb65d852e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Top.png using Guid(82c6ae5eb783ab6479720cb65d852e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3371c352c9738fba8d3a75982ca0ae1') in 0.153158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/crosshairs/triangle-02-hit.png
+  artifactKey: Guid(1cbba3b6e9236ce4cbc1996dfb1af754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-02-hit.png using Guid(1cbba3b6e9236ce4cbc1996dfb1af754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524a90c7153b9b8b817ae417bf90e26b') in 0.0972413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c095ec5463778b3dfe2cfecaada294') in 0.337016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/SelfieIcon.png
+  artifactKey: Guid(22a55d8054d70aa4dad99be5dd41113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/SelfieIcon.png using Guid(22a55d8054d70aa4dad99be5dd41113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '171ded48836acb4ad9d334c627c2a220') in 0.0873894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/BodyType.png
+  artifactKey: Guid(07a568e242a398945948decb4871af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/BodyType.png using Guid(07a568e242a398945948decb4871af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97fb18e76567faff3c8162a19ab930f3') in 0.2288831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Costume.png
+  artifactKey: Guid(c36a81d4a9c45c34799e371354dd1314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Costume.png using Guid(c36a81d4a9c45c34799e371354dd1314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85410da0c25e268ecbb72cbdf9f37356') in 0.164864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Eyebrows.png
+  artifactKey: Guid(c643763b367cd9241b1baf154364ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Eyebrows.png using Guid(c643763b367cd9241b1baf154364ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd445bc1a19b0b21dbbb92b5a0082b794') in 0.0702317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/crosshairs/circle-01-hit.png
+  artifactKey: Guid(e4531206c9fc7ba46b18b46fe4e0305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-01-hit.png using Guid(e4531206c9fc7ba46b18b46fe4e0305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caec028afbd5cc5317bf480ac993150b') in 0.1173907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Resources/Banner.png
+  artifactKey: Guid(97cb8e496ac634f4ba4c0a1bb899c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Resources/Banner.png using Guid(97cb8e496ac634f4ba4c0a1bb899c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd84abeadea6238e0cecaf8243544af') in 0.1337283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/crosshairs/simple-03-whole.png
+  artifactKey: Guid(76ee2b499a2a0fd4e9738e52c7fd1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-03-whole.png using Guid(76ee2b499a2a0fd4e9738e52c7fd1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7085e6e4cc819d102e5c6ba907cd5d4c') in 0.1226891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/crosshairs/simple-04-whole.png
+  artifactKey: Guid(46f610fc0fe7a9945aa7e74614f6f2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-04-whole.png using Guid(46f610fc0fe7a9945aa7e74614f6f2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3be3937bb27d048f04d9551ee40083e') in 0.0951757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/crosshairs/square-02.png
+  artifactKey: Guid(8518c61d94a260047af6c592f7b65583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/square-02.png using Guid(8518c61d94a260047af6c592f7b65583) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1f454fd61241cbf7fac9638a5198f88') in 0.3105013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/crosshairs/triangle-02.png
+  artifactKey: Guid(624c85cf2672ee9419c04d377f5b8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-02.png using Guid(624c85cf2672ee9419c04d377f5b8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c65880ef6018f329784f63b3fdf7c45') in 0.1966793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/crosshairs/simple-04.png
+  artifactKey: Guid(b25e2028a1ee0444095cf5bb7beb423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-04.png using Guid(b25e2028a1ee0444095cf5bb7beb423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa79c0dddf682e7ff0e56406f101ced') in 0.0512251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/crosshairs/cross-02.png
+  artifactKey: Guid(c76a1e4f93317a64daaf22966f68f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/cross-02.png using Guid(c76a1e4f93317a64daaf22966f68f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4efc036d57ce7c99cfc8efd2f6b7f55f') in 0.0744889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8ef180e9c517d18eca91ec65a7c97ac') in 0.1811147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/crosshairs/circle-04-whole.png
+  artifactKey: Guid(a9665e04b559879428e95de55041f6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-04-whole.png using Guid(a9665e04b559879428e95de55041f6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faeec062d208fd176a9a462777c87f6b') in 0.0504039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Images/open_in_new.png
+  artifactKey: Guid(a6831d064b1bfe749b9faa95c3cd5033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Images/open_in_new.png using Guid(a6831d064b1bfe749b9faa95c3cd5033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09197ee53dfb0a58a0c6c3b99ac9ef48') in 0.0869685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/crosshairs/square-02-hit.png
+  artifactKey: Guid(11eca320500a9594dba34690a172da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/square-02-hit.png using Guid(11eca320500a9594dba34690a172da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c5ec7d642c591d84db8bdce01fd874') in 0.147423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c26d72d686af94bd85b5a0e60747c34d') in 0.4087764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_plussize.png
+  artifactKey: Guid(f5f5a43d08476ca4b8848443bdbdfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_plussize.png using Guid(f5f5a43d08476ca4b8848443bdbdfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a06d965775e38c4e2ebb2621fb6a9785') in 0.3130886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/crosshairs/circle-03.png
+  artifactKey: Guid(7d9f3a4568e44f1449d0c66733490423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-03.png using Guid(7d9f3a4568e44f1449d0c66733490423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24abe6597aa85c5c2711863b08c23724') in 0.1363542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/loading.png
+  artifactKey: Guid(f8a0a71cef646a44a9115efc31dbcd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/loading.png using Guid(f8a0a71cef646a44a9115efc31dbcd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27145b65fdbbf39cc282f649851b8440') in 0.1269399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/crosshairs/cross-01-hit.png
+  artifactKey: Guid(1410554331778e14692385b0bd0f3a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/cross-01-hit.png using Guid(1410554331778e14692385b0bd0f3a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b54486fc90815950aef354d08ac522') in 0.1157616 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000063 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aacee138f2effcedad2d8146d172c2d3') in 0.1310332 seconds
+  path: Assets/crosshairs/triangle-06.png
+  artifactKey: Guid(5e8dfa42ef6145d47ba7407302c98eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-06.png using Guid(5e8dfa42ef6145d47ba7407302c98eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bac5653ad62af0833de4e75663c96bb8') in 0.067639 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc86fde45a621331ef970f1f614708ce') in 0.0530591 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/crosshairs/triangle-06-hit.png
+  artifactKey: Guid(e04113f477b8a164f9565799601c2704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-06-hit.png using Guid(e04113f477b8a164f9565799601c2704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '455827c930b08cdf1d4c5915f9d542a3') in 0.1336531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/FaceMask.png
+  artifactKey: Guid(f933e74dee7862c4a983106d50699bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/FaceMask.png using Guid(f933e74dee7862c4a983106d50699bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc076e7f9e274c6121e9b009d710a60a') in 0.4021145 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-T28Q-YJH6-PZM5-T5DE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 11270192270148-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.177 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.305 seconds
+Domain Reload Profiling: 7805ms
+	BeginReloadAssembly (562ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (2447ms)
+		LoadAssemblies (2273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (383ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (4625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2863ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (623ms)
+			ProcessInitializeOnLoadAttributes (1964ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (71ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8347 unused Assets / (15.7 MB). Loaded Objects now: 9052.
+Memory consumption went from 214.4 MB to 198.7 MB.
+Total: 24.706000 ms (FindLiveObjects: 2.780900 ms CreateObjectMapping: 3.175400 ms MarkObjects: 9.163900 ms  DeleteObjects: 9.583100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 416.425648 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png
+  artifactKey: Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png using Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2b238ef6a36854f64e12e5dbd0a240') in 0.1162233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Images/header bg.png
+  artifactKey: Guid(4a521b94490c6944c8d130ee855f4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Images/header bg.png using Guid(4a521b94490c6944c8d130ee855f4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a908a8cabf3cc117d2d0a32df22993c') in 0.4799707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/Headwear.png
+  artifactKey: Guid(862b1f4e571bfdd4c973a50badc0681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/Headwear.png using Guid(862b1f4e571bfdd4c973a50badc0681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0928588a1df4343fce7941974d1441b3') in 0.0189277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/LipShape.png
+  artifactKey: Guid(d209980974ba7e747b8db0e2eb5751e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/LipShape.png using Guid(d209980974ba7e747b8db0e2eb5751e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2532c15111cb32a62c514d21801c99ea') in 0.0192362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-T28Q-YJH6-PZM5-T5DE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 11270192270148-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.017 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.721 seconds
+Domain Reload Profiling: 3744ms
+	BeginReloadAssembly (543ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (1345ms)
+		LoadAssemblies (1086ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (467ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (1722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (752ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8347 unused Assets / (14.7 MB). Loaded Objects now: 9057.
+Memory consumption went from 214.4 MB to 199.7 MB.
+Total: 42.428600 ms (FindLiveObjects: 1.787900 ms CreateObjectMapping: 3.944300 ms MarkObjects: 16.838400 ms  DeleteObjects: 19.856300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

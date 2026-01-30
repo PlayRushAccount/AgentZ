@@ -155,7 +155,15 @@ public class EnemyAI : MonoBehaviour
             attackTimer = 0f;
             animator.SetTrigger("Attack");
 
-            // DAMAGE LOGIC HERE
+            // DAMAGE LOGIC 
+            if (player != null)
+            {
+                PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+                        if (playerHealth != null)
+                    {
+                        playerHealth.TakeDamage(10f); // Adjust damage as needed
+                    }
+            }
             Debug.Log("Enemy attacks player");
         }
 

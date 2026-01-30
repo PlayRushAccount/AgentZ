@@ -1,35 +1,35 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7544 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-19T13:54:31.9538889Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 12171 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-19T13:54:31Z
+Date: 2026-01-27T20:03:59Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PREDATOR" at "2026-01-27T20:03:59.5299323Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
+D:\Unity\6000.0.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/USER/Documents/GitHub/AgentZ
+D:/Unity Projects/PlayRush/AgentZ
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61845
+49401
 -licensingIpc
-LicenseClient-USER
+LicenseClient-PREDATOR
 -job-worker-count
-5
+1
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/USER/Documents/GitHub/AgentZ
-C:/Users/USER/Documents/GitHub/AgentZ
+Successfully changed project path to: D:/Unity Projects/PlayRush/AgentZ
+D:/Unity Projects/PlayRush/AgentZ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,27 +65,27 @@ C:/Users/USER/Documents/GitHub/AgentZ
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14860]  Target information:
+Player connection [604]  Target information:
 
-Player connection [14860]  * "[IP] 10.219.196.44 [Port] 0 [Flags] 2 [Guid] 1887870364 [EditorId] 1887870364 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9K5OLOL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [604]  * "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 3354607622 [EditorId] 3354607622 [Version] 1048832 [Id] WindowsEditor(7,GoingMerry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14860] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14860] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19872, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17240, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              b0b3aa793be04b5582abe6ce320d330b
-  Correlation Id:          c6fc166299d598615221701a533b8a9b
-  External correlation Id: 5015974028526239002
-  Machine Id:              OAbm5RE/DZ5+YLhXwVvKRl6scdM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-19T13:54:32.0188858Z"
-[Licensing::Module] Licensing Background thread has ended after 0.06s
+  Session Id:              8e20f33943614cd98705d7ae1271997f
+  Correlation Id:          0ae2c1af9c634dd7c51cd59ddb2a5057
+  External correlation Id: 4411862989804350347
+  Machine Id:              FmmeQ3UVVWfnxzCKIkWuTJgrYVE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-PREDATOR" (connect: 0.01s, validation: 0.00s, handshake: 0.46s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PREDATOR-notifications" at "2026-01-27T20:04:00.0097113Z"
+[Licensing::Module] Licensing Background thread has ended after 0.49s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,84 +93,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 344.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AgentZ/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/PlayRush/AgentZ/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
-    Vendor:   ATI
-    VRAM:     3772 MB
-    Driver:   31.0.21921.11005
+    Renderer: Intel(R) HD Graphics 630 (ID=0x591b)
+    Vendor:   Intel
+    VRAM:     6085 MB
+    Driver:   31.0.101.2111
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008203 seconds.
-- Loaded All Assemblies, in  0.933 seconds
+Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.074440 seconds.
+- Loaded All Assemblies, in  8.313 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.663 seconds
-Domain Reload Profiling: 1592ms
-	BeginReloadAssembly (360ms)
+- Finished resetting the current domain, in  1.295 seconds
+Domain Reload Profiling: 9608ms
+	BeginReloadAssembly (2521ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (352ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (1370ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (278ms)
+	LoadAllAssembliesAndSetupDomain (4110ms)
+		LoadAssemblies (2534ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (366ms)
-				TypeCache.ScanAssembly (341ms)
+		AnalyzeDomain (4075ms)
+			TypeCache.Refresh (4073ms)
+				TypeCache.ScanAssembly (2739ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (664ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
+		SetupLoadedEditorAssemblies (1179ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			InitializePlatformSupportModulesInManaged (98ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (397ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,90 +156,404 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 11270418903473-UnityPersXXXX
+  Id: F4-T28Q-YJH6-PZM5-T5DE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 11270192270148-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.217 seconds
+- Loaded All Assemblies, in 18.049 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.22 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-We weren't able to parse search user settings at C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings. We will fallback to default settings.
-UnityEngine.UnityException: SJSON Parse Error (C:/Users/USER/Documents/GitHub/AgentZ/UserSettings/Search.settings) at line 0: Error consuming: =
-
-trackSelection = true
-
-  at UnityEditor.SJSON.Load (System.String path) [0x0004e] in <cd9b23508c04492a9e7051cbb9076578>:0 
-  at UnityEditor.Search.SearchSettingsStorage.Load () [0x0000a] in <d823d8b068664dcfaf6efac004eab8c2>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Search.SearchSettingsStorage:Load ()
-UnityEditor.Search.SearchSettings:Load ()
-UnityEditor.Search.SearchSettings:set_settingsStorage (UnityEditor.Search.SearchSettingsStorage)
-UnityEditor.Search.SearchSettings:.cctor ()
-UnityEditor.Search.CustomIndexers:RefreshCustomIndexers ()
-UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers ()
-UnityEditor.Search.CustomIndexers:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.158 seconds
-Domain Reload Profiling: 4362ms
-	BeginReloadAssembly (478ms)
+- Finished resetting the current domain, in 11.469 seconds
+Domain Reload Profiling: 29517ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (105ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (1466ms)
-		LoadAssemblies (1062ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (17594ms)
+		LoadAssemblies (16168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (665ms)
-			TypeCache.Refresh (491ms)
-				TypeCache.ScanAssembly (460ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2159ms)
+		AnalyzeDomain (1582ms)
+			TypeCache.Refresh (1255ms)
+				TypeCache.ScanAssembly (1213ms)
+			BuildScriptInfoCaches (282ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (11471ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1643ms)
+		SetupLoadedEditorAssemblies (6465ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (246ms)
-			ProcessInitializeOnLoadAttributes (1201ms)
-			ProcessInitializeOnLoadMethodAttributes (172ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (70ms)
+			BeforeProcessingInitializeOnLoad (1248ms)
+			ProcessInitializeOnLoadAttributes (3949ms)
+			ProcessInitializeOnLoadMethodAttributes (1182ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 63.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 312 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8487 unused Assets / (43.2 MB). Loaded Objects now: 8874.
-Memory consumption went from 229.9 MB to 186.7 MB.
-Total: 28.677300 ms (FindLiveObjects: 1.622200 ms CreateObjectMapping: 1.398800 ms MarkObjects: 8.076100 ms  DeleteObjects: 17.578300 ms)
+Unloading 168 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8349 unused Assets / (14.8 MB). Loaded Objects now: 9022.
+Memory consumption went from 195.1 MB to 180.3 MB.
+Total: 65.214600 ms (FindLiveObjects: 2.875800 ms CreateObjectMapping: 2.841500 ms MarkObjects: 42.439800 ms  DeleteObjects: 17.055800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3550.732249 seconds.
+  path: Assets/crosshairs/triangle-05-hit.png
+  artifactKey: Guid(99443a47a339bd94d8025102817beec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-05-hit.png using Guid(99443a47a339bd94d8025102817beec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d7543f5bc676b3f3386ceade385e13f') in 0.4862962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Images/ButtonRounded40px.png
+  artifactKey: Guid(1ce2af3d56a65e841837f0e95ed65a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Images/ButtonRounded40px.png using Guid(1ce2af3d56a65e841837f0e95ed65a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deda47d66ef848f5c8b752df1898a251') in 0.535796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/crosshairs/simple-01.png
+  artifactKey: Guid(c882758218069c945bc253f66f51b424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-01.png using Guid(c882758218069c945bc253f66f51b424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00978ca32c8614cd2343c8f2b627048f') in 0.154904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9265044ac7edd92d6e686ba324379f84') in 0.1390789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/icons8-right-100.png
+  artifactKey: Guid(40b4f4e7f3010ca489d09a60ece95e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/icons8-right-100.png using Guid(40b4f4e7f3010ca489d09a60ece95e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0005cf52772a78f9c1bb08c9df3518a') in 0.081398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/crosshairs/circle-06-whole.png
+  artifactKey: Guid(548ed28beac49a54b8ee385a057ddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-06-whole.png using Guid(548ed28beac49a54b8ee385a057ddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c7215b31ca847dc455616020de721f7') in 0.055164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/crosshairs/circle-05.png
+  artifactKey: Guid(c1a5e1ae51e607f42a7aaefce46c8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-05.png using Guid(c1a5e1ae51e607f42a7aaefce46c8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ee889b34c88d4d24987f63a9cf9b880') in 0.2323278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/crosshairs/circle-01-whole.png
+  artifactKey: Guid(d11a4d8b4eed39f41aba4579403e414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-01-whole.png using Guid(d11a4d8b4eed39f41aba4579403e414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a93916a69eec8c9db8d0904439875f7') in 0.1052798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ddfe2445fe093a867ee0ffdd631193a') in 0.1445957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/crosshairs/triangle-04-hit.png
+  artifactKey: Guid(c4da0342f1b8adc43a74178c6710115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-04-hit.png using Guid(c4da0342f1b8adc43a74178c6710115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a1f39a63543d943ace981b0ecbfcf4b') in 0.223738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/crosshairs/triangle-03-hit.png
+  artifactKey: Guid(80b42adba21dd1b4eb3cdf91759f3ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-03-hit.png using Guid(80b42adba21dd1b4eb3cdf91759f3ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30b9ae34f703660f7e740c37f6e8c684') in 0.4344854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/crosshairs/triangle-06-whole.png
+  artifactKey: Guid(3a386b30a7a97534dbe76ae5596ce81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-06-whole.png using Guid(3a386b30a7a97534dbe76ae5596ce81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e4e99f7d61148b3c28da7256e325146') in 0.1166216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+  artifactKey: Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png using Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa3e6dfba62a71155d32bce278af9050') in 0.0729997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/icons8-left-100.png
+  artifactKey: Guid(ef6bb9cc12dc1d54f886eba2b78f354d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/icons8-left-100.png using Guid(ef6bb9cc12dc1d54f886eba2b78f354d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae485f166605860a9a355776f9c1d48') in 0.0917916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/RPM_Icon.png
+  artifactKey: Guid(c6e5475275b12574ca01dd6502480e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/RPM_Icon.png using Guid(c6e5475275b12574ca01dd6502480e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76f93cdfe1a6495de9c60420fc6c4cfb') in 0.2672028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/crosshairs/simple-01-whole.png
+  artifactKey: Guid(d014c23dfa3e3bc42a25ab55131fdcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-01-whole.png using Guid(d014c23dfa3e3bc42a25ab55131fdcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e48a22441f9f61bff0331dac218f9838') in 0.2012686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/NodeShape.png
+  artifactKey: Guid(4a231e061320a814286bc12960fb8ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/NodeShape.png using Guid(4a231e061320a814286bc12960fb8ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66576ac694e841f94f7c24a0836dd740') in 0.1850852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/crosshairs/simple-02-hit.png
+  artifactKey: Guid(3ef70d8d42da9774097fbcefb3ba681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-02-hit.png using Guid(3ef70d8d42da9774097fbcefb3ba681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152281e8bdf15e415717ee47c1323ae2') in 0.0808397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/crosshairs/circle-06-hit.png
+  artifactKey: Guid(f38320b87658a8d4582fa97ec2603cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-06-hit.png using Guid(f38320b87658a8d4582fa97ec2603cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '682cca11c0f3d19a673f2c8987b86ddf') in 0.1499215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb5c9564e933a2b06ccc7dc7f3327088') in 0.0825726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/crosshairs/circle-04-hit.png
+  artifactKey: Guid(a1c269e842591154088ac9f9179082c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-04-hit.png using Guid(a1c269e842591154088ac9f9179082c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bc9b3fa6ba2bbfcdbb107cf7fecc312') in 0.1650806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+  artifactKey: Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png using Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131d5d0bc5d56d6d4faa1a9f9dad08d8') in 0.0998177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/crosshairs
+  artifactKey: Guid(0afe0ce0e62b70f4d80a6556981ebc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs using Guid(0afe0ce0e62b70f4d80a6556981ebc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7271e46c1c5df1d69fd50706eeabac6a') in 0.0012275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/ClearSelection.png
+  artifactKey: Guid(5ef35277eb4994d44a9521fbd0f4ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/ClearSelection.png using Guid(5ef35277eb4994d44a9521fbd0f4ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4a8dbebbd3bf7f73f5305e8f143d1a') in 0.1011145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Outfit.png
+  artifactKey: Guid(c9babd77f30c9ae479cc57b85ee9a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Outfit.png using Guid(c9babd77f30c9ae479cc57b85ee9a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6642df639eb8fc86212ae946fc5f6e59') in 0.033947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/bg.png
+  artifactKey: Guid(ce1e38095e7881c4194eb33ffb723e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/bg.png using Guid(ce1e38095e7881c4194eb33ffb723e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1225b5b5fa3e72af7ba38480219613a1') in 0.1165212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+  artifactKey: Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png using Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b714286c6440af95f7853294dfd119aa') in 0.1011808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Bottom.png
+  artifactKey: Guid(6d014847f2d0fb44cab874ed33a7645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Bottom.png using Guid(6d014847f2d0fb44cab874ed33a7645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '203fc15cfca3f977392cbabd6194c6f2') in 0.1390093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/crosshairs/triangle-02-whole.png
+  artifactKey: Guid(822d658facb0b01449d52da045245b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/triangle-02-whole.png using Guid(822d658facb0b01449d52da045245b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a342051392ae56bebdd5cf076748e0c') in 0.0461074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_average.png
+  artifactKey: Guid(82b7676205e22654cac319cffcf17bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_average.png using Guid(82b7676205e22654cac319cffcf17bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec250a7d371e0d237cb8e6b45a6d6c51') in 0.0731632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/RoundedSquare.png
+  artifactKey: Guid(90a6af1157bf3f9409158b0e3fb9feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/RoundedSquare.png using Guid(90a6af1157bf3f9409158b0e3fb9feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6dfba261e5cc02b6c09093027ff91a') in 0.0639732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/HairStyle.png
+  artifactKey: Guid(c347327d3a4a3da43965d30b12c5adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/HairStyle.png using Guid(c347327d3a4a3da43965d30b12c5adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55aa4270a0d70295436281177dbd355') in 0.1831976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/crosshairs/simple-03-hit.png
+  artifactKey: Guid(cb5558307efc4dd4095957699ffbc567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-03-hit.png using Guid(cb5558307efc4dd4095957699ffbc567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85dcecce9d2fbc5f8f5167ef784ecf33') in 0.1048853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+  artifactKey: Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png using Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51c26d7c386e929f4e3fa99e5941828') in 0.2954889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/crosshairs/cross-02-whole.png
+  artifactKey: Guid(20156d41f9103614eb174b886a21e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/cross-02-whole.png using Guid(20156d41f9103614eb174b886a21e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '804537e150f51ed944e41058aa2fd96e') in 0.2501491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/crosshairs/circle-01.png
+  artifactKey: Guid(e946f2e52f33e714e836cd3309f8d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/circle-01.png using Guid(e946f2e52f33e714e836cd3309f8d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f97dbc72f6ede9558baa4ac3fb931c0') in 0.2122233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/crosshairs/simple-02.png
+  artifactKey: Guid(799423b1ec5a67946b12d6ae2a7b335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-02.png using Guid(799423b1ec5a67946b12d6ae2a7b335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e7e4b906d1263ff3117408b8cba3b8') in 0.0675236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/crosshairs/simple-01-hit.png
+  artifactKey: Guid(fc7087081b141be49913911b23b311b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-01-hit.png using Guid(fc7087081b141be49913911b23b311b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c7c86b4a1046d7b13745589d3f4644') in 0.1085578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/crosshairs/cross-01-whole.png
+  artifactKey: Guid(e139b0fe831a1f24d8f3c944b11fcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/cross-01-whole.png using Guid(e139b0fe831a1f24d8f3c944b11fcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55ee6b8dc23fb36dbbee375475751ba') in 0.0906257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/crosshairs/simple-03.png
+  artifactKey: Guid(6a029113155d5f74291a1dfa9f561dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crosshairs/simple-03.png using Guid(6a029113155d5f74291a1dfa9f561dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3240184b07e980b2b058ee85498f66') in 0.1337648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+  artifactKey: Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png using Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1bddf44b3c33649b12cd63f1510c39d') in 0.1714264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
