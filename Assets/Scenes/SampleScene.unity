@@ -472,11 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4b6cd8da1d3694f9f27a4db307b536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equipKey: 101
-  shootKey: 13
   inputEnabled: 1
-  unequippedGun: {fileID: 1046675664}
-  equippedGun: {fileID: 2005602078}
 --- !u!114 &130658370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,12 +485,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd198b5daef562e4d9e07e8e7632cadf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1204665619}
   walkSpeed: 3
   runSpeed: 8
-  airControlMultiplier: 0.6
   gravity: -18
   jumpHeight: 3
-  cameraFollow: {fileID: 214137661}
 --- !u!114 &130658371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -960,6 +955,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
   m_PrefabInstance: {fileID: 1166186208}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &176864128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,6 +1007,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe759d8a0e88b174a8b7cd5f3d0da425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of ebbed31 (added equip state)
 --- !u!1 &293295052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
@@ -1099,6 +1097,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
   m_PrefabInstance: {fileID: 894434080}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &293295058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,6 +1217,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c4b038b8b486f542a042385a4962a9c, type: 3}
+=======
+>>>>>>> parent of ebbed31 (added equip state)
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,10 +1863,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 545647997, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7825374989609610538, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.86
@@ -1876,23 +1873,11 @@ PrefabInstance:
       objectReference: {fileID: 130658368}
     - target: {fileID: 7825374990175108129, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
       propertyPath: cameraDistance
-      value: -1.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 7825374990175108129, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
-      propertyPath: cameraCollisionMask.m_Bits
-      value: 0
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 7825374990175108132, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
       propertyPath: m_Name
       value: RPM Camera Rig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7825374990175108132, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7825374990175108134, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7825374990175108134, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
       propertyPath: playerInput
@@ -2587,6 +2572,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 293295058}
   m_SourcePrefab: {fileID: 100100000, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1046675664
 GameObject:
   m_ObjectHideFlags: 8
@@ -2618,6 +2604,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1627071302}
   m_LocalEulerAnglesHint: {x: 1.48, y: 171.682, z: 126.381}
+=======
+>>>>>>> parent of ebbed31 (added equip state)
 --- !u!1 &1071882788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2729,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 176864128}
   m_SourcePrefab: {fileID: 100100000, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
+--- !u!4 &1204665619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7825374990175108135, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
+  m_PrefabInstance: {fileID: 729902211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1244156314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
@@ -3948,6 +3941,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
   m_PrefabInstance: {fileID: 2011036309}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1572097773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3993,6 +3987,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6053108084917778589, guid: ae2a646466c659d408058435b6b7ab95, type: 3}
   m_PrefabInstance: {fileID: 2041387208}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of ebbed31 (added equip state)
 --- !u!1 &1684609286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
@@ -5056,6 +5052,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8782324d90a01d14c82d3f34e0c8df14, type: 3}
   m_PrefabInstance: {fileID: 1373680613}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1939267752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5289,6 +5286,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of ebbed31 (added equip state)
 --- !u!1001 &2011036309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5540,12 +5539,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 8279864078521103023, guid: ae2a646466c659d408058435b6b7ab95, type: 3}
       insertIndex: 0
       addedObject: {fileID: 69866950}
     - targetCorrespondingSourceObject: {fileID: 6053108084917778589, guid: ae2a646466c659d408058435b6b7ab95, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1046675665}
+=======
+>>>>>>> parent of ebbed31 (added equip state)
     - targetCorrespondingSourceObject: {fileID: 7361183511752249328, guid: ae2a646466c659d408058435b6b7ab95, type: 3}
       insertIndex: 0
       addedObject: {fileID: 78928670}
